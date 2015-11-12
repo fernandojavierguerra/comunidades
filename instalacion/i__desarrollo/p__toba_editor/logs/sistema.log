@@ -1,0 +1,3945 @@
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:52:06
+Operacion: Subclases
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st56411578c1f006.71763783&ai=toba_editor||3463&tz=0%5E%5Ecomunidades||1%5E%5E2494
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564114ffd81206.21610958&ai=toba_editor||3463&tz=0%5E%5Ecomunidades||1%5E%5E2494
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2494',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2286): Pantalla de eventos: 'pant_generacion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2286): [ inicializar_dependencias ]
+array (
+  0 => 'ci_generacion',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases_generacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2296): Pantalla de eventos: 'pant_vista_previa'
+[DEBUG][toba] componente(2296): [ inicializar_dependencias ]
+array (
+)
+[INFO][toba] componente(2296): [ evento ]  El METODO [ evt__cambiar_tab_pant_edicion ] no existe - 'cambiar_tab_pant_edicion' no fue atrapado
+[INFO][toba] componente(2296): [ callback ] 'evt__pant_vista_previa__salida' no fue atrapado
+[INFO][toba] componente(2296): [ callback ] 'evt__pant_edicion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2286): Pantalla de servicio: 'pant_generacion'
+[DEBUG][toba] componente(2286): [ callback ] 'conf__pant_generacion'
+[DEBUG][toba_editor] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_2_7'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "comunidades"
+[DEBUG][toba] componente(2296): Pantalla de servicio: 'pant_edicion'
+[INFO][toba] componente(2296): [ callback ] 'conf__pant_edicion' no fue atrapado
+[DEBUG][toba] componente(12000130):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2296): [ callback ] 'conf__codigo'
+[INFO][toba] componente(2286): [ callback ] 'conf__ci_generacion' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:52:15
+Operacion: Subclases
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564115868c4ea2.19624177&ai=toba_editor||3463&tz=0%5E%5Ecomunidades||1%5E%5E2494
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st56411578c1f006.71763783&ai=toba_editor||3463&tz=0%5E%5Ecomunidades||1%5E%5E2494
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2494',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2286): Pantalla de eventos: 'pant_generacion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2286): [ inicializar_dependencias ]
+array (
+  0 => 'ci_generacion',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases_generacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2296): Pantalla de eventos: 'pant_edicion'
+[DEBUG][toba] componente(2296): [ inicializar_dependencias ]
+array (
+  0 => 'codigo',
+)
+[DEBUG][toba] componente(12000130):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2296): [ registrar_evento ] 'modificacion' -> [ evt__codigo__modificacion ]
+array (
+  0 => '<?php
+class dt_personas extends toba_datos_tabla
+{
+	function get_persona_nombre($id_persona)
+	{
+		//print_r($id_persona);
+		
+		$sql = "SELECT apellido ||\', \'|| nombres as persona_nombre FROM personas WHERE id_persona = {$id_persona}";
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
+		return toba::db(\'comunidades\')->consultar($sql);
+		
+	}
+	
+	function get_descripciones()
+	{
+		$sql = "SELECT id_persona, nombres FROM personas ORDER BY nombres";
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
+		return toba::db(\'comunidades\')->consultar($sql);
+	}
+	
+	function get_nombres()
+	{
+		$sql = "SELECT apellido ||\', \'|| nombres as persona_nombre FROM personas";
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
+		return toba::db(\'comunidades\')->consultar($sql);
+	}
+
+	function get_listado($filtro=array())
+	{
+		$where = array();
+		if (isset($filtro[\'nombres\'])) {
+			$where[] = "nombres ILIKE ".quote("%{$filtro[\'nombres\']}%");
+		}
+		if (isset($filtro[\'apellido\'])) {
+			$where[] = "apellido ILIKE ".quote("%{$filtro[\'apellido\']}%");
+		}
+		if (isset($filtro[\'nrodocumento\'])) {
+			$where[] = "nrodocumento ILIKE ".quote("%{$filtro[\'nrodocumento\']}%");
+		}
+		$sql = "SELECT
+			t_p.id_persona,
+			t_c.comunidad as id_comunidad_nombre,
+			t_p.nombres,
+			t_p.apellido,
+			t_p.nrodocumento,
+			t_p.fechanacimiento,
+			t_p.direccion,
+			t_b.barrio as id_barrio_nombre,
+			t_t.tipodocumento as id_tipodocumento_nombre,
+			t_p.nrotelcelular,
+			t_p.nrotelfijo,
+			t_p.estado,
+			t_p.fechaingreso,
+			t_p.email,
+			t_p.grupo_sanguineo,
+			t_p.factor_rh,
+			t_p.vacuna_antitetanica
+		FROM
+			personas as t_p    LEFT OUTER JOIN barrios as t_b ON (t_p.id_barrio = t_b.id_barrio)
+			LEFT OUTER JOIN tiposdocumento as t_t ON (t_p.id_tipodocumento = t_t.id_tipodocumento),
+			comunidades as t_c
+		WHERE
+				t_p.id_comunidad = t_c.id_comunidad
+		ORDER BY nombres";
+		if (count($where) > 0) {
+			$sql = sql_concatenar_where($sql, $where);
+		}
+		return toba::db(\'comunidades\')->consultar($sql);
+	}
+
+	
+	function get_listado_personas_grupo($filtro=array())
+	{
+		$where = array();
+		if (isset($filtro[\'anio\'])) {
+			$where[] = "anio = ".quote($filtro[\'anio\']);
+		}
+		if (isset($filtro[\'grupo\'])) {
+			$where[] = "t_g.grupo ILIKE ".quote("%{$filtro[\'grupo\']}%");
+		}
+		if (isset($filtro[\'id_tipogrupo\'])) {
+			$where[] = "t_tg.id_tipogrupo = ".quote($filtro[\'id_tipogrupo\']);
+		}
+
+		$sql = "SELECT
+			t_p.id_comunidad as id_comunidad,
+			t_c.comunidad as comunidad,
+			t_p.id_persona as id_persona,  
+			t_p.nombres as nombres,
+			t_p.apellido as apellido,
+			t_p.apellido ||\', \'|| t_p.nombres as apellido_nombres,
+			t_t.tipodocumento as tipodocumento,
+			t_p.nrodocumento as nrodocumento,
+			t_tg.tipogrupo as tipogrupo,
+			t_tg.id_tipogrupo as id_tipogrupo,
+			t_g.grupo as grupo,
+			t_g.anio as anio
+		FROM
+			personas as t_p 
+			LEFT OUTER JOIN tiposdocumento as t_t ON (t_p.id_tipodocumento = t_t.id_tipodocumento),
+			personagrupo as t_pg,
+			grupos as t_g,
+			tiposgrupo as t_tg,
+			comunidades as t_c
+		WHERE
+			t_p.id_comunidad = t_c.id_comunidad AND
+			t_p.id_persona   = t_pg.id_persona AND
+			t_pg.id_grupo    = t_g.id_grupo AND
+			t_g.id_tipogrupo = t_tg.id_tipogrupo
+		ORDER BY id_comunidad,anio, id_tipogrupo , apellido_nombres";
+		if (count($where)>0) {
+			$sql = sql_concatenar_where($sql, $where);
+		}
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
+		return toba::db(\'comunidades\')->consultar($sql);
+	}
+
+}
+?>',
+)
+[DEBUG][toba] componente(2286): [ evento ] 'generar' -> [ evt__generar ]
+[DEBUG][toba_editor] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_2_7'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "comunidades"
+[DEBUG][toba] componente(2286): Pantalla de servicio: 'pant_generacion'
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2286): [ callback ] 'conf__pant_generacion'
+[DEBUG][toba_editor] PROYECTO "comunidades"
+[DEBUG][toba] componente(2296): Pantalla de servicio: 'pant_vista_previa'
+[DEBUG][toba] componente(2296): [ callback ] 'conf__pant_vista_previa'
+[INFO][toba_editor] Ejecutando: svn st "C:\ServidorWeb\comunidades\src/php/datos/dt_personas.php" --xml  --non-interactive
+
+[ERROR][toba_editor] svn: warning: W155007: 'C:\ServidorWeb\comunidades\src\php\datos\dt_personas.php' no es una copia de trabajo
+
+[ERROR][toba_editor] toba_error: svn: warning: W155007: 'C:\ServidorWeb\comunidades\src\php\datos\dt_personas.php' no es una copia de trabajo
+ 
+
+[TRAZA]exception 'toba_error' with message 'svn: warning: W155007: 'C:\ServidorWeb\comunidades\src\php\datos\dt_personas.php' no es una copia de trabajo
+' in C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\lib\toba_svn.php:69
+Stack trace:
+#0 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\lib\toba_svn.php(144): toba_svn->ejecutar('svn st "C:\\Serv...')
+#1 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\proyectos\toba_editor\php\objetos_toba\subclases\ci_subclases_generacion.php(200): toba_svn->get_estado('C:\\ServidorWeb\\...')
+#2 [internal function]: ci_subclases_generacion->conf__pant_vista_previa(Object(pant_vista_previa))
+#3 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\toba_componente.php(221): call_user_func_array(Array, Array)
+#4 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(617): toba_componente->invocar_callback('conf__pant_vist...', Object(pant_vista_previa))
+#5 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(632): toba_ci->pre_configurar()
+#6 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(475): toba_ci->configurar_dep('ci_generacion')
+#7 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ei_pantalla.php(91): toba_ci->dependencia('ci_generacion')
+#8 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ei.php(121): toba_ei_pantalla->aplicar_restricciones_funcionales()
+#9 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(618): toba_ei->post_configurar()
+#10 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_solicitud_web.php(156): toba_ci->pre_configurar()
+#11 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_solicitud_web.php(60): toba_solicitud_web->procesar_servicios()
+#12 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_nucleo.php(81): toba_solicitud_web->procesar()
+#13 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\proyectos\toba_editor\www\aplicacion.php(17): toba_nucleo->acceso_web()
+#14 {main}
+[DEBUG][toba] Se elimino el evento: svn_blame
+[DEBUG][toba] Se elimino el evento: svn_diff
+[DEBUG][toba] Se elimino el evento: svn_revert
+[DEBUG][toba] Se elimino el evento: trac_ver
+[INFO][toba] componente(2286): [ callback ] 'conf__ci_generacion' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+[DEBUG][toba_editor] PROYECTO "comunidades"
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:52:35
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564111c888e1b4.19113955&ai=toba_editor||1000256&tcm=central&tz=comunidades||2534&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e97ebf14.01646979&ai=toba_editor||1000239&tcm=lateral
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(1386): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba_editor] componente(1386): *** se cargo la relacion: 2534
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1536): toba_datos_relacion: ***   Inicio CARGAR ****************************
+[DEBUG][toba] TABLA: [apex_objeto_ut_formulario]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_ut_formulario]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto_ei_formulario_ef]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_ei_formulario_ef]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_ptos_control_x_evento]
+RESET!!
+[DEBUG][toba] TABLA: [apex_ptos_control_x_evento]
+Se resetea el cursor
+[DEBUG][toba] AP_TABLA: [apex_objeto]
+SQL de carga: 
+SELECT
+	base.proyecto, 
+	base.objeto, 
+	base.anterior, 
+	base.reflexivo, 
+	base.clase_proyecto, 
+	base.clase, 
+	base.subclase, 
+	base.subclase_archivo, 
+	base.nombre, 
+	base.titulo, 
+	base.colapsable, 
+	base.descripcion, 
+	base.fuente_datos_proyecto, 
+	base.fuente_datos, 
+	base.parametro_a, 
+	base.parametro_b, 
+	base.parametro_c, 
+	base.parametro_d, 
+	base.parametro_e, 
+	base.identificador, 
+	base.objeto_categoria_proyecto, 
+	base.objeto_categoria, 
+	base.solicitud_registrar, 
+	base.solicitud_obj_obs_tipo, 
+	base.solicitud_obj_observacion, 
+	base.parametro_f, 
+	base.usuario, 
+	base.creacion, 
+	base.punto_montaje, 
+	base.posicion_botonera
+FROM
+	apex_objeto as base
+WHERE
+	base.proyecto = 'comunidades' AND
+	base.objeto = '2534'
+
+[DEBUG][toba] TABLA: [apex_objeto]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_ut_formulario]
+SQL de carga: 
+SELECT
+	prop_basicas.objeto_ut_formulario_proyecto, 
+	prop_basicas.objeto_ut_formulario, 
+	prop_basicas.tabla, 
+	prop_basicas.titulo, 
+	prop_basicas.clase_proyecto, 
+	prop_basicas.clase, 
+	prop_basicas.auto_reset, 
+	prop_basicas.ancho, 
+	prop_basicas.scroll, 
+	prop_basicas.filas, 
+	prop_basicas.filas_agregar, 
+	prop_basicas.filas_undo, 
+	prop_basicas.filas_ordenar, 
+	prop_basicas.columna_orden, 
+	prop_basicas.filas_numerar, 
+	prop_basicas.ev_seleccion, 
+	prop_basicas.alto, 
+	prop_basicas.analisis_cambios, 
+	prop_basicas.filas_agregar_online, 
+	prop_basicas.ancho_etiqueta, 
+	prop_basicas.expandir_descripcion, 
+	prop_basicas.ev_agregar, 
+	prop_basicas.ev_agregar_etiq, 
+	prop_basicas.ev_mod_modificar, 
+	prop_basicas.ev_mod_modificar_etiq, 
+	prop_basicas.ev_mod_eliminar, 
+	prop_basicas.ev_mod_eliminar_etiq, 
+	prop_basicas.ev_mod_limpiar, 
+	prop_basicas.ev_mod_limpiar_etiq, 
+	prop_basicas.ev_mod_clave, 
+	prop_basicas.campo_bl, 
+	prop_basicas.filas_agregar_abajo, 
+	prop_basicas.filas_agregar_texto, 
+	prop_basicas.filas_borrar_en_linea, 
+	prop_basicas.filas_ordenar_en_linea, 
+	prop_basicas.no_imprimir_efs_sin_estado, 
+	prop_basicas.resaltar_efs_con_estado, 
+	prop_basicas.template, 
+	prop_basicas.template_impresion
+FROM
+	apex_objeto_ut_formulario as prop_basicas
+WHERE
+	(prop_basicas.objeto_ut_formulario_proyecto, prop_basicas.objeto_ut_formulario) IN (
+		SELECT
+			proyecto, 
+			objeto
+		FROM
+			apex_objeto as base
+		WHERE
+			base.proyecto = 'comunidades' AND
+			base.objeto = '2534' )
+
+[DEBUG][toba] TABLA: [apex_objeto_ut_formulario]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_eventos]
+SQL de carga: 
+SELECT
+	eventos.proyecto, 
+	eventos.objeto, 
+	eventos.identificador, 
+	eventos.etiqueta, 
+	eventos.maneja_datos, 
+	eventos.sobre_fila, 
+	eventos.confirmacion, 
+	eventos.estilo, 
+	eventos.imagen_recurso_origen, 
+	eventos.imagen, 
+	eventos.en_botonera, 
+	eventos.ayuda, 
+	eventos.orden, 
+	eventos.ci_predep, 
+	eventos.implicito, 
+	eventos.grupo, 
+	eventos.evento_id, 
+	eventos.display_datos_cargados, 
+	eventos.accion, 
+	eventos.accion_imphtml_debug, 
+	eventos.accion_vinculo_target, 
+	eventos.accion_vinculo_celda, 
+	eventos.defecto, 
+	eventos.accion_vinculo_carpeta, 
+	eventos.accion_vinculo_item, 
+	eventos.accion_vinculo_objeto, 
+	eventos.accion_vinculo_popup, 
+	eventos.accion_vinculo_popup_param, 
+	eventos.accion_vinculo_servicio, 
+	eventos.es_seleccion_multiple, 
+	eventos.es_autovinculo
+FROM
+	apex_objeto_eventos as eventos
+WHERE
+	(eventos.proyecto, eventos.objeto) IN (
+		SELECT
+			proyecto, 
+			objeto
+		FROM
+			apex_objeto as base
+		WHERE
+			base.proyecto = 'comunidades' AND
+			base.objeto = '2534' )
+
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_ei_formulario_ef]
+SQL de carga: 
+SELECT
+	efs.objeto_ei_formulario_proyecto, 
+	efs.objeto_ei_formulario, 
+	efs.objeto_ei_formulario_fila, 
+	efs.identificador, 
+	efs.elemento_formulario, 
+	efs.columnas, 
+	efs.obligatorio, 
+	efs.inicializacion, 
+	efs.orden, 
+	efs.etiqueta, 
+	efs.descripcion, 
+	efs.colapsado, 
+	efs.desactivado, 
+	efs.estilo, 
+	efs.total, 
+	efs.etiqueta_estilo, 
+	efs.popup_carga_desc_metodo, 
+	efs.popup_carga_desc_clase, 
+	efs.popup_carga_desc_include, 
+	efs.popup_puede_borrar_estado, 
+	efs.estado_defecto, 
+	efs.solo_lectura, 
+	efs.carga_metodo, 
+	efs.carga_clase, 
+	efs.carga_include, 
+	efs.carga_col_clave, 
+	efs.carga_col_desc, 
+	efs.carga_sql, 
+	efs.carga_fuente, 
+	efs.carga_lista, 
+	efs.carga_maestros, 
+	efs.carga_cascada_relaj, 
+	efs.carga_no_seteado, 
+	efs.edit_tamano, 
+	efs.edit_maximo, 
+	efs.edit_mascara, 
+	efs.edit_unidad, 
+	efs.edit_rango, 
+	efs.edit_filas, 
+	efs.edit_columnas, 
+	efs.edit_wrap, 
+	efs.edit_resaltar, 
+	efs.edit_ajustable, 
+	efs.popup_item, 
+	efs.popup_proyecto, 
+	efs.popup_editable, 
+	efs.popup_ventana, 
+	efs.fieldset_fin, 
+	efs.check_valor_si, 
+	efs.check_valor_no, 
+	efs.check_desc_si, 
+	efs.check_desc_no, 
+	efs.fijo_sin_estado, 
+	efs.editor_ancho, 
+	efs.editor_alto, 
+	efs.editor_botonera, 
+	efs.selec_cant_minima, 
+	efs.selec_cant_maxima, 
+	efs.selec_utilidades, 
+	efs.selec_tamano, 
+	efs.selec_serializar, 
+	efs.edit_confirmar_clave, 
+	efs.upload_extensiones, 
+	efs.selec_ancho, 
+	efs.oculto_relaja_obligatorio, 
+	efs.carga_dt, 
+	efs.carga_no_seteado_ocultar, 
+	efs.carga_consulta_php, 
+	efs.edit_expreg, 
+	efs.check_ml_toggle, 
+	efs.selec_cant_columnas, 
+	efs.deshabilitar_rest_func, 
+	efs.permitir_html, 
+	efs.carga_permite_no_seteado, 
+	efs.solo_lectura_modificacion, 
+	efs.cascada_mantiene_estado, 
+	efs.punto_montaje, 
+	efs.placeholder
+FROM
+	apex_objeto_ei_formulario_ef as efs
+WHERE
+	(efs.objeto_ei_formulario_proyecto, efs.objeto_ei_formulario) IN (
+		SELECT
+			objeto_ut_formulario_proyecto, 
+			objeto_ut_formulario
+		FROM
+			apex_objeto_ut_formulario as prop_basicas
+		WHERE
+			(prop_basicas.objeto_ut_formulario_proyecto, prop_basicas.objeto_ut_formulario) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2534' ) )
+
+[DEBUG][toba] TABLA: [apex_objeto_ei_formulario_ef]
+Carga de datos  FILAS: 4
+[DEBUG][toba] AP_TABLA: [apex_ptos_control_x_evento]
+SQL de carga: 
+SELECT
+	puntos_control.objeto, 
+	puntos_control.proyecto, 
+	puntos_control.pto_control, 
+	puntos_control.evento_id
+FROM
+	apex_ptos_control_x_evento as puntos_control
+WHERE
+	(puntos_control.proyecto, puntos_control.evento_id) IN (
+		SELECT
+			proyecto, 
+			evento_id
+		FROM
+			apex_objeto_eventos as eventos
+		WHERE
+			(eventos.proyecto, eventos.objeto) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2534' ) )
+
+[DEBUG][toba] AP_TABLA: [apex_ptos_control_x_evento]
+ FILAS: 0
+[DEBUG][toba] componente(1536): toba_datos_relacion: ***   Fin CARGAR (OK) *************************
+[DEBUG][toba] componente(1386): Pantalla de servicio: '1'
+[INFO][toba] componente(1386): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_prop_base.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1355):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1386): [ callback ] 'conf__base'
+[DEBUG][toba] Se elimino el evento: personalizar
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/form_prop_basicas.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1388):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1386): [ callback ] 'conf__prop_basicas'
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:52:37
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564115a31987d6.78235410&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564111c888e1b4.19113955&ai=toba_editor||1000256&tcm=central&tz=comunidades||2534&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '1'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'base',
+  1 => 'prop_basicas',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_prop_base.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1355):  IMPLICITO: modificacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/form_prop_basicas.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1388):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1386): [ registrar_evento ] 'modificacion' -> [ evt__base__modificacion ]
+array (
+  0 => 
+  array (
+    'nombre' => 'Personas - CI - editor - form_familiares',
+    'fuente_datos_proyecto' => 'comunidades',
+    'fuente_datos' => 'comunidades',
+    'punto_montaje' => '16',
+    'subclase_archivo' => NULL,
+    'subclase' => NULL,
+    'identificador' => NULL,
+    'titulo' => NULL,
+    'colapsable' => '0',
+    'descripcion' => NULL,
+    'parametro_a' => NULL,
+    'parametro_b' => NULL,
+    'parametro_c' => NULL,
+    'parametro_d' => NULL,
+    'parametro_e' => NULL,
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): [ registrar_evento ] 'modificacion' -> [ evt__prop_basicas__modificacion ]
+array (
+  0 => 
+  array (
+    'comportamiento' => NULL,
+    'filas_agregar' => '1',
+    'filas_agregar_online' => '1',
+    'filas_agregar_abajo' => '0',
+    'filas_agregar_texto' => NULL,
+    'filas_borrar_en_linea' => '0',
+    'filas_ordenar' => '0',
+    'columna_orden' => NULL,
+    'filas_ordenar_en_linea' => '0',
+    'analisis_cambios' => 'EVENTOS',
+    'filas' => NULL,
+    'presentacion' => NULL,
+    'ancho' => NULL,
+    'scroll' => '0',
+    'alto' => NULL,
+    'filas_numerar' => '0',
+    'posicion_botonera' => 'abajo',
+  ),
+)
+[WARNING][toba_editor] componente(1529): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'comportamiento'  no forma parte de la DEFINICION.
+[WARNING][toba_editor] componente(1529): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'presentacion'  no forma parte de la DEFINICION.
+[INFO][toba] componente(1386): [ evento ]  El METODO [ evt__cambiar_tab_2 ] no existe - 'cambiar_tab_2' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'evt__1__salida' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'evt__2__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [callback][ ini__operacion ]
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] Se elimino el evento: aceptar
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_importar'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:52:41
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564115a58454d1.79589696&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564115a31987d6.78235410&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs_importar',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_parentesco',
+      'etiqueta' => 'Parentesco',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Id comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_familiar',
+      'etiqueta' => 'Familiar',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'seleccion' -> [ evt__efs_lista__seleccion ]
+array (
+  0 => '2',
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[DEBUG][toba] componente(1387):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/form_carga.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1000145):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__param_carga'
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:53:00
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564115a91df578.94804264&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564115a58454d1.79589696&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs',
+  2 => 'param_carga',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1387):  IMPLICITO: modificacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/form_carga.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1000145):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs__modificacion ]
+array (
+  0 => 
+  array (
+    'columnas' => 'id_familiar',
+    'descripcion' => NULL,
+    'estado_defecto' => NULL,
+    'permitir_html' => '0',
+    'deshabilitar_rest_func' => '0',
+    'total' => '0',
+    'colapsado' => '0',
+    'desactivado' => '0',
+    'estilo' => NULL,
+    'etiqueta_estilo' => NULL,
+    'solo_lectura' => '0',
+    'solo_lectura_modificacion' => '0',
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__param_carga__modificacion ]
+array (
+  0 => 
+  array (
+    'sep_carga' => NULL,
+    'mecanismo' => 'carga_metodo',
+    'tipo_clase' => 'datos_tabla',
+    'carga_dt' => '2494',
+    'punto_montaje' => '16',
+    'carga_include' => NULL,
+    'carga_clase' => NULL,
+    'carga_consulta_php' => NULL,
+    'carga_metodo_lista' => NULL,
+    'carga_metodo' => 'get_nombres',
+    'carga_sql' => NULL,
+    'carga_fuente' => 'comunidades',
+    'carga_col_clave' => 'id_persona',
+    'carga_col_desc' => 'nombres',
+    'carga_lista' => NULL,
+    'carga_permite_no_seteado' => '0',
+    'carga_no_seteado' => NULL,
+    'carga_no_seteado_ocultar' => '0',
+    'sep' => NULL,
+    'carga_maestros' => NULL,
+    'carga_cascada_relaj' => '0',
+    'cascada_mantiene_estado' => '0',
+  ),
+)
+[WARNING][toba_editor] componente(1530): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'sep_carga'  no forma parte de la DEFINICION.
+[WARNING][toba_editor] componente(1530): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'tipo_clase'  no forma parte de la DEFINICION.
+[WARNING][toba_editor] componente(1530): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'carga_metodo_lista'  no forma parte de la DEFINICION.
+[WARNING][toba_editor] componente(1530): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'sep'  no forma parte de la DEFINICION.
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_parentesco',
+      'etiqueta' => 'Parentesco',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Id comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_familiar',
+      'etiqueta' => 'Familiar',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[DEBUG][toba] componente(1386): [ evento ] 'procesar' -> [ evt__procesar ]
+[DEBUG][toba] ************ ABRIR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] AP_TABLA: [apex_objeto_ei_formulario_ef]
+registro: 2
+ UPDATE apex_objeto_ei_formulario_ef
+SET carga_metodo = 'get_nombres'
+WHERE objeto_ei_formulario_proyecto = 'comunidades'
+	AND objeto_ei_formulario = '2534'
+	AND objeto_ei_formulario_fila = '5623'
+	AND identificador = 'id_familiar'
+	AND elemento_formulario = 'ef_combo'
+	AND columnas = 'id_familiar'
+	AND obligatorio = '0'
+	AND inicializacion IS NULL
+	AND orden = '4'
+	AND etiqueta = 'Familiar'
+	AND descripcion IS NULL
+	AND colapsado = '0'
+	AND desactivado = '0'
+	AND estilo IS NULL
+	AND total = '0'
+	AND etiqueta_estilo IS NULL
+	AND popup_carga_desc_metodo IS NULL
+	AND popup_carga_desc_clase IS NULL
+	AND popup_carga_desc_include IS NULL
+	AND popup_puede_borrar_estado = '1'
+	AND estado_defecto IS NULL
+	AND solo_lectura = '0'
+	AND carga_metodo = 'get_descripciones'
+	AND carga_clase IS NULL
+	AND carga_include IS NULL
+	AND carga_col_clave = 'id_persona'
+	AND carga_col_desc = 'nombres'
+	AND carga_sql IS NULL
+	AND carga_fuente = 'comunidades'
+	AND carga_lista IS NULL
+	AND carga_maestros IS NULL
+	AND carga_cascada_relaj = '0'
+	AND carga_no_seteado IS NULL
+	AND edit_tamano IS NULL
+	AND edit_maximo IS NULL
+	AND edit_mascara IS NULL
+	AND edit_unidad IS NULL
+	AND edit_rango IS NULL
+	AND edit_filas IS NULL
+	AND edit_columnas IS NULL
+	AND edit_wrap IS NULL
+	AND edit_resaltar IS NULL
+	AND edit_ajustable IS NULL
+	AND popup_item = '3509'
+	AND popup_proyecto = 'comunidades'
+	AND popup_editable = '1'
+	AND popup_ventana IS NULL
+	AND fieldset_fin IS NULL
+	AND check_valor_si IS NULL
+	AND check_valor_no IS NULL
+	AND check_desc_si IS NULL
+	AND check_desc_no IS NULL
+	AND fijo_sin_estado IS NULL
+	AND editor_ancho IS NULL
+	AND editor_alto IS NULL
+	AND editor_botonera IS NULL
+	AND selec_cant_minima IS NULL
+	AND selec_cant_maxima IS NULL
+	AND selec_utilidades IS NULL
+	AND selec_tamano IS NULL
+	AND selec_serializar IS NULL
+	AND edit_confirmar_clave IS NULL
+	AND upload_extensiones IS NULL
+	AND selec_ancho IS NULL
+	AND oculto_relaja_obligatorio = '0'
+	AND carga_dt = '2494'
+	AND carga_no_seteado_ocultar = '0'
+	AND carga_consulta_php IS NULL
+	AND edit_expreg IS NULL
+	AND check_ml_toggle IS NULL
+	AND selec_cant_columnas IS NULL
+	AND deshabilitar_rest_func = '0'
+	AND permitir_html = '0'
+	AND carga_permite_no_seteado = '0'
+	AND solo_lectura_modificacion = '0'
+	AND cascada_mantiene_estado = '0'
+	AND punto_montaje = '16'
+	AND placeholder IS NULL;
+[DEBUG][toba] ************ CERRAR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__param_carga'
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:54:04
+Operacion: Editor ci
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564111c888e1b4.19113955&ai=toba_editor||1000249&tcm=central&tz=comunidades||2509&pantalla=pant_grupos&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e97ebf14.01646979&ai=toba_editor||1000239&tcm=lateral
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2509',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ci/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1354): [callback][ ini__operacion ]
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1359):  IMPLICITO: modificacion
+[DEBUG][toba_editor] componente(1354): *** se cargo la relacion: 2509
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odr_ci.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_pantallas.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1507): odr_ci: ***   Inicio CARGAR ****************************
+[DEBUG][toba] TABLA: [apex_objeto_mt_me]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_mt_me]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto_ci_pantalla]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_ci_pantalla]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto_dependencias]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_dependencias]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_ptos_control_x_evento]
+RESET!!
+[DEBUG][toba] TABLA: [apex_ptos_control_x_evento]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objetos_pantalla]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objetos_pantalla]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_eventos_pantalla]
+RESET!!
+[DEBUG][toba] TABLA: [apex_eventos_pantalla]
+Se resetea el cursor
+[DEBUG][toba] AP_TABLA: [apex_objeto]
+SQL de carga: 
+SELECT
+	base.proyecto, 
+	base.objeto, 
+	base.anterior, 
+	base.reflexivo, 
+	base.clase_proyecto, 
+	base.clase, 
+	base.subclase, 
+	base.subclase_archivo, 
+	base.nombre, 
+	base.titulo, 
+	base.colapsable, 
+	base.descripcion, 
+	base.fuente_datos_proyecto, 
+	base.fuente_datos, 
+	base.parametro_a, 
+	base.parametro_b, 
+	base.parametro_c, 
+	base.parametro_d, 
+	base.parametro_e, 
+	base.identificador, 
+	base.objeto_categoria_proyecto, 
+	base.objeto_categoria, 
+	base.solicitud_registrar, 
+	base.solicitud_obj_obs_tipo, 
+	base.solicitud_obj_observacion, 
+	base.parametro_f, 
+	base.usuario, 
+	base.creacion, 
+	base.punto_montaje, 
+	base.posicion_botonera
+FROM
+	apex_objeto as base
+WHERE
+	base.proyecto = 'comunidades' AND
+	base.objeto = '2509'
+
+[DEBUG][toba] TABLA: [apex_objeto]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_mt_me]
+SQL de carga: 
+SELECT
+	prop_basicas.objeto_mt_me_proyecto, 
+	prop_basicas.objeto_mt_me, 
+	prop_basicas.ev_procesar_etiq, 
+	prop_basicas.ev_cancelar_etiq, 
+	prop_basicas.ancho, 
+	prop_basicas.alto, 
+	prop_basicas.tipo_navegacion, 
+	prop_basicas.con_toc, 
+	prop_basicas.incremental, 
+	prop_basicas.debug_eventos, 
+	prop_basicas.activacion_procesar, 
+	prop_basicas.activacion_cancelar, 
+	prop_basicas.ev_procesar, 
+	prop_basicas.ev_cancelar, 
+	prop_basicas.objetos, 
+	prop_basicas.post_procesar, 
+	prop_basicas.metodo_despachador, 
+	prop_basicas.metodo_opciones, 
+	prop_basicas.botonera_barra_item
+FROM
+	apex_objeto_mt_me as prop_basicas
+WHERE
+	(prop_basicas.objeto_mt_me_proyecto, prop_basicas.objeto_mt_me) IN (
+		SELECT
+			proyecto, 
+			objeto
+		FROM
+			apex_objeto as base
+		WHERE
+			base.proyecto = 'comunidades' AND
+			base.objeto = '2509' )
+
+[DEBUG][toba] TABLA: [apex_objeto_mt_me]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_eventos]
+SQL de carga: 
+SELECT
+	eventos.proyecto, 
+	eventos.objeto, 
+	eventos.identificador, 
+	eventos.etiqueta, 
+	eventos.maneja_datos, 
+	eventos.sobre_fila, 
+	eventos.confirmacion, 
+	eventos.estilo, 
+	eventos.imagen_recurso_origen, 
+	eventos.imagen, 
+	eventos.en_botonera, 
+	eventos.ayuda, 
+	eventos.orden, 
+	eventos.ci_predep, 
+	eventos.implicito, 
+	eventos.grupo, 
+	eventos.evento_id, 
+	eventos.display_datos_cargados, 
+	eventos.accion, 
+	eventos.accion_imphtml_debug, 
+	eventos.accion_vinculo_target, 
+	eventos.accion_vinculo_celda, 
+	eventos.defecto, 
+	eventos.accion_vinculo_carpeta, 
+	eventos.accion_vinculo_item, 
+	eventos.accion_vinculo_objeto, 
+	eventos.accion_vinculo_popup, 
+	eventos.accion_vinculo_popup_param, 
+	eventos.accion_vinculo_servicio, 
+	eventos.es_seleccion_multiple, 
+	eventos.es_autovinculo
+FROM
+	apex_objeto_eventos as eventos
+WHERE
+	(eventos.proyecto, eventos.objeto) IN (
+		SELECT
+			proyecto, 
+			objeto
+		FROM
+			apex_objeto as base
+		WHERE
+			base.proyecto = 'comunidades' AND
+			base.objeto = '2509' )
+
+[DEBUG][toba] AP_TABLA: [apex_objeto_eventos]
+ FILAS: 0
+[DEBUG][toba] AP_TABLA: [apex_objeto_dependencias]
+SQL de carga: 
+SELECT
+	apex_objeto_dependencias.proyecto, 
+	apex_objeto_dependencias.objeto_consumidor, 
+	apex_objeto_dependencias.objeto_proveedor, 
+	apex_objeto_dependencias.identificador, 
+	apex_objeto_dependencias.parametros_a, 
+	apex_objeto_dependencias.parametros_b, 
+	apex_objeto_dependencias.parametros_c, 
+	apex_objeto_dependencias.inicializar, 
+	apex_objeto_dependencias.dep_id, 
+	apex_objeto_dependencias.orden
+FROM
+	apex_objeto_dependencias as apex_objeto_dependencias
+WHERE
+	(apex_objeto_dependencias.proyecto, apex_objeto_dependencias.objeto_consumidor) IN (
+		SELECT
+			proyecto, 
+			objeto
+		FROM
+			apex_objeto as base
+		WHERE
+			base.proyecto = 'comunidades' AND
+			base.objeto = '2509' )
+
+[DEBUG][toba] AP_TABLA: [apex_objeto_dependencias]
+Inicio carga de campos externos
+[DEBUG][toba] TABLA: [apex_objeto_dependencias]
+Carga de datos  FILAS: 4
+[DEBUG][toba] AP_TABLA: [apex_objeto_ci_pantalla]
+SQL de carga: 
+SELECT
+	pantallas.objeto_ci_proyecto, 
+	pantallas.objeto_ci, 
+	pantallas.pantalla, 
+	pantallas.identificador, 
+	pantallas.orden, 
+	pantallas.etiqueta, 
+	pantallas.descripcion, 
+	pantallas.tip, 
+	pantallas.imagen_recurso_origen, 
+	pantallas.imagen, 
+	pantallas.objetos, 
+	pantallas.eventos, 
+	pantallas.subclase, 
+	pantallas.subclase_archivo, 
+	pantallas.punto_montaje, 
+	pantallas.template, 
+	pantallas.template_impresion
+FROM
+	apex_objeto_ci_pantalla as pantallas
+WHERE
+	(pantallas.objeto_ci_proyecto, pantallas.objeto_ci) IN (
+		SELECT
+			objeto_mt_me_proyecto, 
+			objeto_mt_me
+		FROM
+			apex_objeto_mt_me as prop_basicas
+		WHERE
+			(prop_basicas.objeto_mt_me_proyecto, prop_basicas.objeto_mt_me) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2509' ) )
+
+[DEBUG][toba] TABLA: [apex_objeto_ci_pantalla]
+Carga de datos  FILAS: 4
+[DEBUG][toba] AP_TABLA: [apex_ptos_control_x_evento]
+SQL de carga: 
+SELECT
+	puntos_control.objeto, 
+	puntos_control.proyecto, 
+	puntos_control.pto_control, 
+	puntos_control.evento_id
+FROM
+	apex_ptos_control_x_evento as puntos_control
+WHERE
+	(puntos_control.proyecto, puntos_control.objeto, puntos_control.evento_id) IN (
+		SELECT
+			proyecto, 
+			objeto, 
+			evento_id
+		FROM
+			apex_objeto_eventos as eventos
+		WHERE
+			(eventos.proyecto, eventos.objeto) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2509' ) )
+
+[DEBUG][toba] AP_TABLA: [apex_ptos_control_x_evento]
+ FILAS: 0
+[DEBUG][toba] AP_TABLA: [apex_objetos_pantalla]
+SQL de carga: 
+SELECT
+	apex_objetos_pantalla.proyecto, 
+	apex_objetos_pantalla.pantalla, 
+	apex_objetos_pantalla.objeto_ci, 
+	apex_objetos_pantalla.orden, 
+	apex_objetos_pantalla.dep_id
+FROM
+	apex_objetos_pantalla as apex_objetos_pantalla
+WHERE
+	(apex_objetos_pantalla.proyecto, apex_objetos_pantalla.objeto_ci, apex_objetos_pantalla.dep_id) IN (
+		SELECT
+			proyecto, 
+			objeto_consumidor, 
+			dep_id
+		FROM
+			apex_objeto_dependencias as apex_objeto_dependencias
+		WHERE
+			(apex_objeto_dependencias.proyecto, apex_objeto_dependencias.objeto_consumidor) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2509' ) ) AND
+	(apex_objetos_pantalla.proyecto, apex_objetos_pantalla.objeto_ci, apex_objetos_pantalla.pantalla) IN (
+		SELECT
+			objeto_ci_proyecto, 
+			objeto_ci, 
+			pantalla
+		FROM
+			apex_objeto_ci_pantalla as pantallas
+		WHERE
+			(pantallas.objeto_ci_proyecto, pantallas.objeto_ci) IN (
+				SELECT
+					objeto_mt_me_proyecto, 
+					objeto_mt_me
+				FROM
+					apex_objeto_mt_me as prop_basicas
+				WHERE
+					(prop_basicas.objeto_mt_me_proyecto, prop_basicas.objeto_mt_me) IN (
+						SELECT
+							proyecto, 
+							objeto
+						FROM
+							apex_objeto as base
+						WHERE
+							base.proyecto = 'comunidades' AND
+							base.objeto = '2509' ) ) )
+
+[DEBUG][toba] AP_TABLA: [apex_objetos_pantalla]
+Inicio carga de campos externos
+[DEBUG][toba_editor] SELECT identificador as dependencia
+FROM  apex_objeto_dependencias
+WHERE
+proyecto = 'comunidades' AND objeto_consumidor = '2509' AND dep_id = '1362'
+[DEBUG][toba_editor] SELECT identificador as dependencia
+FROM  apex_objeto_dependencias
+WHERE
+proyecto = 'comunidades' AND objeto_consumidor = '2509' AND dep_id = '1368'
+[DEBUG][toba_editor] SELECT identificador as dependencia
+FROM  apex_objeto_dependencias
+WHERE
+proyecto = 'comunidades' AND objeto_consumidor = '2509' AND dep_id = '1375'
+[DEBUG][toba_editor] SELECT identificador as dependencia
+FROM  apex_objeto_dependencias
+WHERE
+proyecto = 'comunidades' AND objeto_consumidor = '2509' AND dep_id = '1388'
+[DEBUG][toba] TABLA: [apex_objetos_pantalla]
+Carga de datos  FILAS: 4
+[DEBUG][toba] AP_TABLA: [apex_eventos_pantalla]
+SQL de carga: 
+SELECT
+	apex_eventos_pantalla.pantalla, 
+	apex_eventos_pantalla.objeto_ci, 
+	apex_eventos_pantalla.evento_id, 
+	apex_eventos_pantalla.proyecto
+FROM
+	apex_eventos_pantalla as apex_eventos_pantalla
+WHERE
+	(apex_eventos_pantalla.proyecto, apex_eventos_pantalla.evento_id) IN (
+		SELECT
+			proyecto, 
+			evento_id
+		FROM
+			apex_objeto_eventos as eventos
+		WHERE
+			(eventos.proyecto, eventos.objeto) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2509' ) ) AND
+	(apex_eventos_pantalla.proyecto, apex_eventos_pantalla.objeto_ci, apex_eventos_pantalla.pantalla) IN (
+		SELECT
+			objeto_ci_proyecto, 
+			objeto_ci, 
+			pantalla
+		FROM
+			apex_objeto_ci_pantalla as pantallas
+		WHERE
+			(pantallas.objeto_ci_proyecto, pantallas.objeto_ci) IN (
+				SELECT
+					objeto_mt_me_proyecto, 
+					objeto_mt_me
+				FROM
+					apex_objeto_mt_me as prop_basicas
+				WHERE
+					(prop_basicas.objeto_mt_me_proyecto, prop_basicas.objeto_mt_me) IN (
+						SELECT
+							proyecto, 
+							objeto
+						FROM
+							apex_objeto as base
+						WHERE
+							base.proyecto = 'comunidades' AND
+							base.objeto = '2509' ) ) )
+
+[DEBUG][toba] AP_TABLA: [apex_eventos_pantalla]
+ FILAS: 0
+[DEBUG][toba] componente(1507): odr_ci: ***   Fin CARGAR (OK) *************************
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(1354): No hay señales de un servicio anterior, no se atrapan eventos
+[INFO][toba] componente(1354): [ callback ] 'evt__2__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] TABLA: [apex_objeto_ci_pantalla]
+Nuevo cursor '1' en reemplazo del anterior ''
+[DEBUG][toba] componente(1354): Pantalla de servicio: '2'
+[DEBUG][toba] componente(1354): [ callback ] 'conf__2'
+[DEBUG][toba] componente(1354): [ callback ] 'conf__pantallas_lista'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ci/eiform_pantallas.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1357):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1354): [ callback ] 'conf__pantallas'
+[DEBUG][toba] Se elimino el evento: ver_php
+[DEBUG][toba] Se elimino el evento: abrir_php
+[DEBUG][toba] Se elimino el evento: personalizar
+[DEBUG][toba] componente(1360):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1354): [ callback ] 'conf__pantallas_ei'
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:54:07
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564111c888e1b4.19113955&ai=toba_editor||1000256&tcm=central&tz=comunidades||2522&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e97ebf14.01646979&ai=toba_editor||1000239&tcm=lateral
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2522',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(1386): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba_editor] componente(1386): *** se cargo la relacion: 2522
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1536): toba_datos_relacion: ***   Inicio CARGAR ****************************
+[DEBUG][toba] TABLA: [apex_objeto_ut_formulario]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_ut_formulario]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto_ei_formulario_ef]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_ei_formulario_ef]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_ptos_control_x_evento]
+RESET!!
+[DEBUG][toba] TABLA: [apex_ptos_control_x_evento]
+Se resetea el cursor
+[DEBUG][toba] AP_TABLA: [apex_objeto]
+SQL de carga: 
+SELECT
+	base.proyecto, 
+	base.objeto, 
+	base.anterior, 
+	base.reflexivo, 
+	base.clase_proyecto, 
+	base.clase, 
+	base.subclase, 
+	base.subclase_archivo, 
+	base.nombre, 
+	base.titulo, 
+	base.colapsable, 
+	base.descripcion, 
+	base.fuente_datos_proyecto, 
+	base.fuente_datos, 
+	base.parametro_a, 
+	base.parametro_b, 
+	base.parametro_c, 
+	base.parametro_d, 
+	base.parametro_e, 
+	base.identificador, 
+	base.objeto_categoria_proyecto, 
+	base.objeto_categoria, 
+	base.solicitud_registrar, 
+	base.solicitud_obj_obs_tipo, 
+	base.solicitud_obj_observacion, 
+	base.parametro_f, 
+	base.usuario, 
+	base.creacion, 
+	base.punto_montaje, 
+	base.posicion_botonera
+FROM
+	apex_objeto as base
+WHERE
+	base.proyecto = 'comunidades' AND
+	base.objeto = '2522'
+
+[DEBUG][toba] TABLA: [apex_objeto]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_ut_formulario]
+SQL de carga: 
+SELECT
+	prop_basicas.objeto_ut_formulario_proyecto, 
+	prop_basicas.objeto_ut_formulario, 
+	prop_basicas.tabla, 
+	prop_basicas.titulo, 
+	prop_basicas.clase_proyecto, 
+	prop_basicas.clase, 
+	prop_basicas.auto_reset, 
+	prop_basicas.ancho, 
+	prop_basicas.scroll, 
+	prop_basicas.filas, 
+	prop_basicas.filas_agregar, 
+	prop_basicas.filas_undo, 
+	prop_basicas.filas_ordenar, 
+	prop_basicas.columna_orden, 
+	prop_basicas.filas_numerar, 
+	prop_basicas.ev_seleccion, 
+	prop_basicas.alto, 
+	prop_basicas.analisis_cambios, 
+	prop_basicas.filas_agregar_online, 
+	prop_basicas.ancho_etiqueta, 
+	prop_basicas.expandir_descripcion, 
+	prop_basicas.ev_agregar, 
+	prop_basicas.ev_agregar_etiq, 
+	prop_basicas.ev_mod_modificar, 
+	prop_basicas.ev_mod_modificar_etiq, 
+	prop_basicas.ev_mod_eliminar, 
+	prop_basicas.ev_mod_eliminar_etiq, 
+	prop_basicas.ev_mod_limpiar, 
+	prop_basicas.ev_mod_limpiar_etiq, 
+	prop_basicas.ev_mod_clave, 
+	prop_basicas.campo_bl, 
+	prop_basicas.filas_agregar_abajo, 
+	prop_basicas.filas_agregar_texto, 
+	prop_basicas.filas_borrar_en_linea, 
+	prop_basicas.filas_ordenar_en_linea, 
+	prop_basicas.no_imprimir_efs_sin_estado, 
+	prop_basicas.resaltar_efs_con_estado, 
+	prop_basicas.template, 
+	prop_basicas.template_impresion
+FROM
+	apex_objeto_ut_formulario as prop_basicas
+WHERE
+	(prop_basicas.objeto_ut_formulario_proyecto, prop_basicas.objeto_ut_formulario) IN (
+		SELECT
+			proyecto, 
+			objeto
+		FROM
+			apex_objeto as base
+		WHERE
+			base.proyecto = 'comunidades' AND
+			base.objeto = '2522' )
+
+[DEBUG][toba] TABLA: [apex_objeto_ut_formulario]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_eventos]
+SQL de carga: 
+SELECT
+	eventos.proyecto, 
+	eventos.objeto, 
+	eventos.identificador, 
+	eventos.etiqueta, 
+	eventos.maneja_datos, 
+	eventos.sobre_fila, 
+	eventos.confirmacion, 
+	eventos.estilo, 
+	eventos.imagen_recurso_origen, 
+	eventos.imagen, 
+	eventos.en_botonera, 
+	eventos.ayuda, 
+	eventos.orden, 
+	eventos.ci_predep, 
+	eventos.implicito, 
+	eventos.grupo, 
+	eventos.evento_id, 
+	eventos.display_datos_cargados, 
+	eventos.accion, 
+	eventos.accion_imphtml_debug, 
+	eventos.accion_vinculo_target, 
+	eventos.accion_vinculo_celda, 
+	eventos.defecto, 
+	eventos.accion_vinculo_carpeta, 
+	eventos.accion_vinculo_item, 
+	eventos.accion_vinculo_objeto, 
+	eventos.accion_vinculo_popup, 
+	eventos.accion_vinculo_popup_param, 
+	eventos.accion_vinculo_servicio, 
+	eventos.es_seleccion_multiple, 
+	eventos.es_autovinculo
+FROM
+	apex_objeto_eventos as eventos
+WHERE
+	(eventos.proyecto, eventos.objeto) IN (
+		SELECT
+			proyecto, 
+			objeto
+		FROM
+			apex_objeto as base
+		WHERE
+			base.proyecto = 'comunidades' AND
+			base.objeto = '2522' )
+
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_ei_formulario_ef]
+SQL de carga: 
+SELECT
+	efs.objeto_ei_formulario_proyecto, 
+	efs.objeto_ei_formulario, 
+	efs.objeto_ei_formulario_fila, 
+	efs.identificador, 
+	efs.elemento_formulario, 
+	efs.columnas, 
+	efs.obligatorio, 
+	efs.inicializacion, 
+	efs.orden, 
+	efs.etiqueta, 
+	efs.descripcion, 
+	efs.colapsado, 
+	efs.desactivado, 
+	efs.estilo, 
+	efs.total, 
+	efs.etiqueta_estilo, 
+	efs.popup_carga_desc_metodo, 
+	efs.popup_carga_desc_clase, 
+	efs.popup_carga_desc_include, 
+	efs.popup_puede_borrar_estado, 
+	efs.estado_defecto, 
+	efs.solo_lectura, 
+	efs.carga_metodo, 
+	efs.carga_clase, 
+	efs.carga_include, 
+	efs.carga_col_clave, 
+	efs.carga_col_desc, 
+	efs.carga_sql, 
+	efs.carga_fuente, 
+	efs.carga_lista, 
+	efs.carga_maestros, 
+	efs.carga_cascada_relaj, 
+	efs.carga_no_seteado, 
+	efs.edit_tamano, 
+	efs.edit_maximo, 
+	efs.edit_mascara, 
+	efs.edit_unidad, 
+	efs.edit_rango, 
+	efs.edit_filas, 
+	efs.edit_columnas, 
+	efs.edit_wrap, 
+	efs.edit_resaltar, 
+	efs.edit_ajustable, 
+	efs.popup_item, 
+	efs.popup_proyecto, 
+	efs.popup_editable, 
+	efs.popup_ventana, 
+	efs.fieldset_fin, 
+	efs.check_valor_si, 
+	efs.check_valor_no, 
+	efs.check_desc_si, 
+	efs.check_desc_no, 
+	efs.fijo_sin_estado, 
+	efs.editor_ancho, 
+	efs.editor_alto, 
+	efs.editor_botonera, 
+	efs.selec_cant_minima, 
+	efs.selec_cant_maxima, 
+	efs.selec_utilidades, 
+	efs.selec_tamano, 
+	efs.selec_serializar, 
+	efs.edit_confirmar_clave, 
+	efs.upload_extensiones, 
+	efs.selec_ancho, 
+	efs.oculto_relaja_obligatorio, 
+	efs.carga_dt, 
+	efs.carga_no_seteado_ocultar, 
+	efs.carga_consulta_php, 
+	efs.edit_expreg, 
+	efs.check_ml_toggle, 
+	efs.selec_cant_columnas, 
+	efs.deshabilitar_rest_func, 
+	efs.permitir_html, 
+	efs.carga_permite_no_seteado, 
+	efs.solo_lectura_modificacion, 
+	efs.cascada_mantiene_estado, 
+	efs.punto_montaje, 
+	efs.placeholder
+FROM
+	apex_objeto_ei_formulario_ef as efs
+WHERE
+	(efs.objeto_ei_formulario_proyecto, efs.objeto_ei_formulario) IN (
+		SELECT
+			objeto_ut_formulario_proyecto, 
+			objeto_ut_formulario
+		FROM
+			apex_objeto_ut_formulario as prop_basicas
+		WHERE
+			(prop_basicas.objeto_ut_formulario_proyecto, prop_basicas.objeto_ut_formulario) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2522' ) )
+
+[DEBUG][toba] TABLA: [apex_objeto_ei_formulario_ef]
+Carga de datos  FILAS: 4
+[DEBUG][toba] AP_TABLA: [apex_ptos_control_x_evento]
+SQL de carga: 
+SELECT
+	puntos_control.objeto, 
+	puntos_control.proyecto, 
+	puntos_control.pto_control, 
+	puntos_control.evento_id
+FROM
+	apex_ptos_control_x_evento as puntos_control
+WHERE
+	(puntos_control.proyecto, puntos_control.evento_id) IN (
+		SELECT
+			proyecto, 
+			evento_id
+		FROM
+			apex_objeto_eventos as eventos
+		WHERE
+			(eventos.proyecto, eventos.objeto) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2522' ) )
+
+[DEBUG][toba] AP_TABLA: [apex_ptos_control_x_evento]
+ FILAS: 0
+[DEBUG][toba] componente(1536): toba_datos_relacion: ***   Fin CARGAR (OK) *************************
+[DEBUG][toba] componente(1386): Pantalla de servicio: '1'
+[INFO][toba] componente(1386): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_prop_base.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1355):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1386): [ callback ] 'conf__base'
+[DEBUG][toba] Se elimino el evento: personalizar
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/form_prop_basicas.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1388):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1386): [ callback ] 'conf__prop_basicas'
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:54:09
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564115ff9c6e39.99939778&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2522
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564111c888e1b4.19113955&ai=toba_editor||1000256&tcm=central&tz=comunidades||2522&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2522',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '1'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'base',
+  1 => 'prop_basicas',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_prop_base.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1355):  IMPLICITO: modificacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/form_prop_basicas.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1388):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1386): [ registrar_evento ] 'modificacion' -> [ evt__base__modificacion ]
+array (
+  0 => 
+  array (
+    'nombre' => 'Personas - CI - editor - form_grupos',
+    'fuente_datos_proyecto' => 'comunidades',
+    'fuente_datos' => 'comunidades',
+    'punto_montaje' => '16',
+    'subclase_archivo' => NULL,
+    'subclase' => NULL,
+    'identificador' => NULL,
+    'titulo' => NULL,
+    'colapsable' => '0',
+    'descripcion' => NULL,
+    'parametro_a' => NULL,
+    'parametro_b' => NULL,
+    'parametro_c' => NULL,
+    'parametro_d' => NULL,
+    'parametro_e' => NULL,
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): [ registrar_evento ] 'modificacion' -> [ evt__prop_basicas__modificacion ]
+array (
+  0 => 
+  array (
+    'comportamiento' => NULL,
+    'filas_agregar' => '1',
+    'filas_agregar_online' => '1',
+    'filas_agregar_abajo' => '0',
+    'filas_agregar_texto' => NULL,
+    'filas_borrar_en_linea' => '0',
+    'filas_ordenar' => '0',
+    'columna_orden' => NULL,
+    'filas_ordenar_en_linea' => '0',
+    'analisis_cambios' => 'LINEA',
+    'filas' => NULL,
+    'presentacion' => NULL,
+    'ancho' => NULL,
+    'scroll' => '0',
+    'alto' => NULL,
+    'filas_numerar' => '0',
+    'posicion_botonera' => 'abajo',
+  ),
+)
+[WARNING][toba_editor] componente(1529): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'comportamiento'  no forma parte de la DEFINICION.
+[WARNING][toba_editor] componente(1529): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'presentacion'  no forma parte de la DEFINICION.
+[INFO][toba] componente(1386): [ evento ]  El METODO [ evt__cambiar_tab_2 ] no existe - 'cambiar_tab_2' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'evt__1__salida' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'evt__2__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [callback][ ini__operacion ]
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] Se elimino el evento: aceptar
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_importar'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:54:13
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st56411601502e39.35182377&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2522
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564115ff9c6e39.99939778&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2522
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2522',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs_importar',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_grupo',
+      'etiqueta' => 'Grupo',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_responsabilidad',
+      'etiqueta' => 'Responsabilidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'seleccion' -> [ evt__efs_lista__seleccion ]
+array (
+  0 => '1',
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[DEBUG][toba] componente(1387):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/form_carga.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1000145):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__param_carga'
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:54:32
+Operacion: Subclases
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564111c888e1b4.19113955&ai=toba_editor||3463&tcm=central&tz=comunidades||2491&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e97ebf14.01646979&ai=toba_editor||1000239&tcm=lateral
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2491',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2286): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(2286): No hay señales de un servicio anterior, no se atrapan eventos
+[INFO][toba] componente(2286): [ callback ] 'evt__pant_generacion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2286): Pantalla de servicio: 'pant_generacion'
+[DEBUG][toba] componente(2286): [ callback ] 'conf__pant_generacion'
+[DEBUG][toba_editor] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_2_7'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "comunidades"
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases_generacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2296): [callback][ ini__operacion ]
+[DEBUG][toba] componente(2296): Pantalla de servicio: 'pant_vista_previa'
+[DEBUG][toba] componente(2296): [ callback ] 'conf__pant_vista_previa'
+[INFO][toba_editor] Ejecutando: svn st "C:\ServidorWeb\comunidades\src/php/datos/dt_personagrupo.php" --xml  --non-interactive
+
+[ERROR][toba_editor] svn: warning: W155007: 'C:\ServidorWeb\comunidades\src\php\datos\dt_personagrupo.php' no es una copia de trabajo
+
+[ERROR][toba_editor] toba_error: svn: warning: W155007: 'C:\ServidorWeb\comunidades\src\php\datos\dt_personagrupo.php' no es una copia de trabajo
+ 
+
+[TRAZA]exception 'toba_error' with message 'svn: warning: W155007: 'C:\ServidorWeb\comunidades\src\php\datos\dt_personagrupo.php' no es una copia de trabajo
+' in C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\lib\toba_svn.php:69
+Stack trace:
+#0 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\lib\toba_svn.php(144): toba_svn->ejecutar('svn st "C:\\Serv...')
+#1 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\proyectos\toba_editor\php\objetos_toba\subclases\ci_subclases_generacion.php(200): toba_svn->get_estado('C:\\ServidorWeb\\...')
+#2 [internal function]: ci_subclases_generacion->conf__pant_vista_previa(Object(pant_vista_previa))
+#3 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\toba_componente.php(221): call_user_func_array(Array, Array)
+#4 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(617): toba_componente->invocar_callback('conf__pant_vist...', Object(pant_vista_previa))
+#5 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(632): toba_ci->pre_configurar()
+#6 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(475): toba_ci->configurar_dep('ci_generacion')
+#7 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ei_pantalla.php(91): toba_ci->dependencia('ci_generacion')
+#8 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ei.php(121): toba_ei_pantalla->aplicar_restricciones_funcionales()
+#9 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(618): toba_ei->post_configurar()
+#10 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_solicitud_web.php(156): toba_ci->pre_configurar()
+#11 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_solicitud_web.php(60): toba_solicitud_web->procesar_servicios()
+#12 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_nucleo.php(81): toba_solicitud_web->procesar()
+#13 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\proyectos\toba_editor\www\aplicacion.php(17): toba_nucleo->acceso_web()
+#14 {main}
+[DEBUG][toba] Se elimino el evento: svn_blame
+[DEBUG][toba] Se elimino el evento: svn_diff
+[DEBUG][toba] Se elimino el evento: svn_revert
+[DEBUG][toba] Se elimino el evento: trac_ver
+[INFO][toba] componente(2286): [ callback ] 'conf__ci_generacion' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+[DEBUG][toba_editor] PROYECTO "comunidades"
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:54:56
+Operacion: Catalogo
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564110e942d707.11552066&ai=toba_editor||3397&tcm=lateral&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e8e0b700.95345488&ai=toba_editor||1000241
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase datos/ci_catalogo.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1989): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(1989): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1989): Pantalla de servicio: 'pant_inicial'
+[INFO][toba] componente(1989): [ callback ] 'conf__pant_inicial' no fue atrapado
+[DEBUG][toba] componente(1989): [ callback ] 'conf__fuentes'
+[DEBUG][toba] componente(1989): [ callback ] 'conf__dimensiones'
+[DEBUG][toba] componente(1989): [ callback ] 'conf__consultas'
+[DEBUG][toba] componente(1989): [ callback ] 'conf__tablas'
+[DEBUG][toba] componente(1989): [ callback ] 'conf__arbol_relaciones'
+[DEBUG][toba] componente(1989): [ callback ] 'conf__servicios_web'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:55:01
+Operacion: Subclases
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st56411630018e38.72991008&ai=toba_editor||3463&tcm=central&tz=comunidades||2485&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e942d707.11552066&ai=toba_editor||3397&tcm=lateral&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2485',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2286): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(2286): No hay señales de un servicio anterior, no se atrapan eventos
+[INFO][toba] componente(2286): [ callback ] 'evt__pant_generacion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2286): Pantalla de servicio: 'pant_generacion'
+[DEBUG][toba] componente(2286): [ callback ] 'conf__pant_generacion'
+[DEBUG][toba_editor] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_2_7'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "comunidades"
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases_generacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2296): [callback][ ini__operacion ]
+[DEBUG][toba] componente(2296): Pantalla de servicio: 'pant_vista_previa'
+[DEBUG][toba] componente(2296): [ callback ] 'conf__pant_vista_previa'
+[INFO][toba_editor] Ejecutando: svn st "C:\ServidorWeb\comunidades\src/php/datos/dt_grupos.php" --xml  --non-interactive
+
+[ERROR][toba_editor] svn: warning: W155007: 'C:\ServidorWeb\comunidades\src\php\datos\dt_grupos.php' no es una copia de trabajo
+
+[ERROR][toba_editor] toba_error: svn: warning: W155007: 'C:\ServidorWeb\comunidades\src\php\datos\dt_grupos.php' no es una copia de trabajo
+ 
+
+[TRAZA]exception 'toba_error' with message 'svn: warning: W155007: 'C:\ServidorWeb\comunidades\src\php\datos\dt_grupos.php' no es una copia de trabajo
+' in C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\lib\toba_svn.php:69
+Stack trace:
+#0 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\lib\toba_svn.php(144): toba_svn->ejecutar('svn st "C:\\Serv...')
+#1 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\proyectos\toba_editor\php\objetos_toba\subclases\ci_subclases_generacion.php(200): toba_svn->get_estado('C:\\ServidorWeb\\...')
+#2 [internal function]: ci_subclases_generacion->conf__pant_vista_previa(Object(pant_vista_previa))
+#3 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\toba_componente.php(221): call_user_func_array(Array, Array)
+#4 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(617): toba_componente->invocar_callback('conf__pant_vist...', Object(pant_vista_previa))
+#5 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(632): toba_ci->pre_configurar()
+#6 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(475): toba_ci->configurar_dep('ci_generacion')
+#7 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ei_pantalla.php(91): toba_ci->dependencia('ci_generacion')
+#8 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ei.php(121): toba_ei_pantalla->aplicar_restricciones_funcionales()
+#9 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\componentes\interface\toba_ci.php(618): toba_ei->post_configurar()
+#10 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_solicitud_web.php(156): toba_ci->pre_configurar()
+#11 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_solicitud_web.php(60): toba_solicitud_web->procesar_servicios()
+#12 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_nucleo.php(81): toba_solicitud_web->procesar()
+#13 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\proyectos\toba_editor\www\aplicacion.php(17): toba_nucleo->acceso_web()
+#14 {main}
+[DEBUG][toba] Se elimino el evento: svn_blame
+[DEBUG][toba] Se elimino el evento: svn_diff
+[DEBUG][toba] Se elimino el evento: svn_revert
+[DEBUG][toba] Se elimino el evento: trac_ver
+[INFO][toba] componente(2286): [ callback ] 'conf__ci_generacion' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+[DEBUG][toba_editor] PROYECTO "comunidades"
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:55:16
+Operacion: Subclases
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st56411634e11bc0.93716980&ai=toba_editor||3463&tz=0%5E%5Ecomunidades||1%5E%5E2485
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st56411630018e38.72991008&ai=toba_editor||3463&tcm=central&tz=comunidades||2485&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2485',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2286): Pantalla de eventos: 'pant_generacion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2286): [ inicializar_dependencias ]
+array (
+  0 => 'ci_generacion',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/subclases/ci_subclases_generacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(2296): Pantalla de eventos: 'pant_vista_previa'
+[DEBUG][toba] componente(2296): [ inicializar_dependencias ]
+array (
+)
+[INFO][toba] componente(2296): [ evento ]  El METODO [ evt__cambiar_tab_pant_edicion ] no existe - 'cambiar_tab_pant_edicion' no fue atrapado
+[INFO][toba] componente(2296): [ callback ] 'evt__pant_vista_previa__salida' no fue atrapado
+[INFO][toba] componente(2296): [ callback ] 'evt__pant_edicion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2286): Pantalla de servicio: 'pant_generacion'
+[DEBUG][toba] componente(2286): [ callback ] 'conf__pant_generacion'
+[DEBUG][toba_editor] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_editor] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_editor] INSTANCIA "desarrollo"
+[DEBUG][toba_editor] Conectando a base 'toba_2_7'
+[DEBUG][toba_editor] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_editor] PROYECTO "comunidades"
+[DEBUG][toba] componente(2296): Pantalla de servicio: 'pant_edicion'
+[INFO][toba] componente(2296): [ callback ] 'conf__pant_edicion' no fue atrapado
+[DEBUG][toba] componente(12000130):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2296): [ callback ] 'conf__codigo'
+[INFO][toba] componente(2286): [ callback ] 'conf__ci_generacion' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:55:19
+Operacion: Catálogo
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564110e942d707.11552066&ai=toba_editor||1000239&tcm=lateral&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e8e0b700.95345488&ai=toba_editor||1000241
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/ci_catalogo_items.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1381): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(1381): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1381): Pantalla de servicio: '1'
+[INFO][toba] componente(1381): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/cuadro_fotos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1381): [ callback ] 'conf__fotos'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/filtro_catalogo_items.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1381): [ callback ] 'conf__filtro'
+[DEBUG][toba] Se filtro el evento: cancelar
+[DEBUG][toba] componente(1381): [ callback ] 'conf__items'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:55:21
+Operacion: Catálogo
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564116476bbb05.75286488&ai=toba_editor||1000239&ts=ejecutar&tsd=toba_editor||1368&tcm=lateral&id_nodo=3511
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e942d707.11552066&ai=toba_editor||1000239&tcm=lateral&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/ci_catalogo_items.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1381): Pantalla de eventos: '1'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1381): [ inicializar_dependencias ]
+array (
+  0 => 'fotos',
+  1 => 'filtro',
+  2 => 'items',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/cuadro_fotos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/filtro_catalogo_items.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1381): Pantalla de servicio: '1'
+[INFO][toba] componente(1381): [ callback ] 'conf__1' no fue atrapado
+[DEBUG][toba] componente(1381): [ callback ] 'conf__fotos'
+[DEBUG][toba] componente(1381): [ callback ] 'conf__filtro'
+[DEBUG][toba] Se filtro el evento: cancelar
+[DEBUG][toba] componente(1381): [ callback ] 'conf__items'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__ejecutar...
+[DEBUG][toba] componente(1381): [ registrar_evento ] 'cargar_nodo' -> [ evt__items__cargar_nodo ]
+array (
+  0 => '3511',
+)
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 18:55:26
+Operacion: Catálogo
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564116476bbb05.75286488&ai=toba_editor||1000239&ts=ejecutar&tsd=toba_editor||1368&tcm=lateral&id_nodo=3504
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e942d707.11552066&ai=toba_editor||1000239&tcm=lateral&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/ci_catalogo_items.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1381): Pantalla de eventos: '1'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1381): [ inicializar_dependencias ]
+array (
+  0 => 'fotos',
+  1 => 'filtro',
+  2 => 'items',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/cuadro_fotos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase catalogos/filtro_catalogo_items.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1381): Pantalla de servicio: '1'
+[INFO][toba] componente(1381): [ callback ] 'conf__1' no fue atrapado
+[DEBUG][toba] componente(1381): [ callback ] 'conf__fotos'
+[DEBUG][toba] componente(1381): [ callback ] 'conf__filtro'
+[DEBUG][toba] Se filtro el evento: cancelar
+[DEBUG][toba] componente(1381): [ callback ] 'conf__items'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__ejecutar...
+[DEBUG][toba] componente(1381): [ registrar_evento ] 'cargar_nodo' -> [ evt__items__cargar_nodo ]
+array (
+  0 => '3504',
+)
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 19:04:29
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st5641164dd481e2.67703929&ai=toba_editor||1000256&tcm=central&tz=comunidades||2534&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564110e942d707.11552066&ai=toba_editor||1000239&tcm=lateral&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(1386): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba_editor] componente(1386): *** se cargo la relacion: 2534
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1536): toba_datos_relacion: ***   Inicio CARGAR ****************************
+[DEBUG][toba] TABLA: [apex_objeto_ut_formulario]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_ut_formulario]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto_ei_formulario_ef]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto_ei_formulario_ef]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_objeto]
+RESET!!
+[DEBUG][toba] TABLA: [apex_objeto]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_ptos_control_x_evento]
+RESET!!
+[DEBUG][toba] TABLA: [apex_ptos_control_x_evento]
+Se resetea el cursor
+[DEBUG][toba] AP_TABLA: [apex_objeto]
+SQL de carga: 
+SELECT
+	base.proyecto, 
+	base.objeto, 
+	base.anterior, 
+	base.reflexivo, 
+	base.clase_proyecto, 
+	base.clase, 
+	base.subclase, 
+	base.subclase_archivo, 
+	base.nombre, 
+	base.titulo, 
+	base.colapsable, 
+	base.descripcion, 
+	base.fuente_datos_proyecto, 
+	base.fuente_datos, 
+	base.parametro_a, 
+	base.parametro_b, 
+	base.parametro_c, 
+	base.parametro_d, 
+	base.parametro_e, 
+	base.identificador, 
+	base.objeto_categoria_proyecto, 
+	base.objeto_categoria, 
+	base.solicitud_registrar, 
+	base.solicitud_obj_obs_tipo, 
+	base.solicitud_obj_observacion, 
+	base.parametro_f, 
+	base.usuario, 
+	base.creacion, 
+	base.punto_montaje, 
+	base.posicion_botonera
+FROM
+	apex_objeto as base
+WHERE
+	base.proyecto = 'comunidades' AND
+	base.objeto = '2534'
+
+[DEBUG][toba] TABLA: [apex_objeto]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_ut_formulario]
+SQL de carga: 
+SELECT
+	prop_basicas.objeto_ut_formulario_proyecto, 
+	prop_basicas.objeto_ut_formulario, 
+	prop_basicas.tabla, 
+	prop_basicas.titulo, 
+	prop_basicas.clase_proyecto, 
+	prop_basicas.clase, 
+	prop_basicas.auto_reset, 
+	prop_basicas.ancho, 
+	prop_basicas.scroll, 
+	prop_basicas.filas, 
+	prop_basicas.filas_agregar, 
+	prop_basicas.filas_undo, 
+	prop_basicas.filas_ordenar, 
+	prop_basicas.columna_orden, 
+	prop_basicas.filas_numerar, 
+	prop_basicas.ev_seleccion, 
+	prop_basicas.alto, 
+	prop_basicas.analisis_cambios, 
+	prop_basicas.filas_agregar_online, 
+	prop_basicas.ancho_etiqueta, 
+	prop_basicas.expandir_descripcion, 
+	prop_basicas.ev_agregar, 
+	prop_basicas.ev_agregar_etiq, 
+	prop_basicas.ev_mod_modificar, 
+	prop_basicas.ev_mod_modificar_etiq, 
+	prop_basicas.ev_mod_eliminar, 
+	prop_basicas.ev_mod_eliminar_etiq, 
+	prop_basicas.ev_mod_limpiar, 
+	prop_basicas.ev_mod_limpiar_etiq, 
+	prop_basicas.ev_mod_clave, 
+	prop_basicas.campo_bl, 
+	prop_basicas.filas_agregar_abajo, 
+	prop_basicas.filas_agregar_texto, 
+	prop_basicas.filas_borrar_en_linea, 
+	prop_basicas.filas_ordenar_en_linea, 
+	prop_basicas.no_imprimir_efs_sin_estado, 
+	prop_basicas.resaltar_efs_con_estado, 
+	prop_basicas.template, 
+	prop_basicas.template_impresion
+FROM
+	apex_objeto_ut_formulario as prop_basicas
+WHERE
+	(prop_basicas.objeto_ut_formulario_proyecto, prop_basicas.objeto_ut_formulario) IN (
+		SELECT
+			proyecto, 
+			objeto
+		FROM
+			apex_objeto as base
+		WHERE
+			base.proyecto = 'comunidades' AND
+			base.objeto = '2534' )
+
+[DEBUG][toba] TABLA: [apex_objeto_ut_formulario]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_eventos]
+SQL de carga: 
+SELECT
+	eventos.proyecto, 
+	eventos.objeto, 
+	eventos.identificador, 
+	eventos.etiqueta, 
+	eventos.maneja_datos, 
+	eventos.sobre_fila, 
+	eventos.confirmacion, 
+	eventos.estilo, 
+	eventos.imagen_recurso_origen, 
+	eventos.imagen, 
+	eventos.en_botonera, 
+	eventos.ayuda, 
+	eventos.orden, 
+	eventos.ci_predep, 
+	eventos.implicito, 
+	eventos.grupo, 
+	eventos.evento_id, 
+	eventos.display_datos_cargados, 
+	eventos.accion, 
+	eventos.accion_imphtml_debug, 
+	eventos.accion_vinculo_target, 
+	eventos.accion_vinculo_celda, 
+	eventos.defecto, 
+	eventos.accion_vinculo_carpeta, 
+	eventos.accion_vinculo_item, 
+	eventos.accion_vinculo_objeto, 
+	eventos.accion_vinculo_popup, 
+	eventos.accion_vinculo_popup_param, 
+	eventos.accion_vinculo_servicio, 
+	eventos.es_seleccion_multiple, 
+	eventos.es_autovinculo
+FROM
+	apex_objeto_eventos as eventos
+WHERE
+	(eventos.proyecto, eventos.objeto) IN (
+		SELECT
+			proyecto, 
+			objeto
+		FROM
+			apex_objeto as base
+		WHERE
+			base.proyecto = 'comunidades' AND
+			base.objeto = '2534' )
+
+[DEBUG][toba] TABLA: [apex_objeto_eventos]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_objeto_ei_formulario_ef]
+SQL de carga: 
+SELECT
+	efs.objeto_ei_formulario_proyecto, 
+	efs.objeto_ei_formulario, 
+	efs.objeto_ei_formulario_fila, 
+	efs.identificador, 
+	efs.elemento_formulario, 
+	efs.columnas, 
+	efs.obligatorio, 
+	efs.inicializacion, 
+	efs.orden, 
+	efs.etiqueta, 
+	efs.descripcion, 
+	efs.colapsado, 
+	efs.desactivado, 
+	efs.estilo, 
+	efs.total, 
+	efs.etiqueta_estilo, 
+	efs.popup_carga_desc_metodo, 
+	efs.popup_carga_desc_clase, 
+	efs.popup_carga_desc_include, 
+	efs.popup_puede_borrar_estado, 
+	efs.estado_defecto, 
+	efs.solo_lectura, 
+	efs.carga_metodo, 
+	efs.carga_clase, 
+	efs.carga_include, 
+	efs.carga_col_clave, 
+	efs.carga_col_desc, 
+	efs.carga_sql, 
+	efs.carga_fuente, 
+	efs.carga_lista, 
+	efs.carga_maestros, 
+	efs.carga_cascada_relaj, 
+	efs.carga_no_seteado, 
+	efs.edit_tamano, 
+	efs.edit_maximo, 
+	efs.edit_mascara, 
+	efs.edit_unidad, 
+	efs.edit_rango, 
+	efs.edit_filas, 
+	efs.edit_columnas, 
+	efs.edit_wrap, 
+	efs.edit_resaltar, 
+	efs.edit_ajustable, 
+	efs.popup_item, 
+	efs.popup_proyecto, 
+	efs.popup_editable, 
+	efs.popup_ventana, 
+	efs.fieldset_fin, 
+	efs.check_valor_si, 
+	efs.check_valor_no, 
+	efs.check_desc_si, 
+	efs.check_desc_no, 
+	efs.fijo_sin_estado, 
+	efs.editor_ancho, 
+	efs.editor_alto, 
+	efs.editor_botonera, 
+	efs.selec_cant_minima, 
+	efs.selec_cant_maxima, 
+	efs.selec_utilidades, 
+	efs.selec_tamano, 
+	efs.selec_serializar, 
+	efs.edit_confirmar_clave, 
+	efs.upload_extensiones, 
+	efs.selec_ancho, 
+	efs.oculto_relaja_obligatorio, 
+	efs.carga_dt, 
+	efs.carga_no_seteado_ocultar, 
+	efs.carga_consulta_php, 
+	efs.edit_expreg, 
+	efs.check_ml_toggle, 
+	efs.selec_cant_columnas, 
+	efs.deshabilitar_rest_func, 
+	efs.permitir_html, 
+	efs.carga_permite_no_seteado, 
+	efs.solo_lectura_modificacion, 
+	efs.cascada_mantiene_estado, 
+	efs.punto_montaje, 
+	efs.placeholder
+FROM
+	apex_objeto_ei_formulario_ef as efs
+WHERE
+	(efs.objeto_ei_formulario_proyecto, efs.objeto_ei_formulario) IN (
+		SELECT
+			objeto_ut_formulario_proyecto, 
+			objeto_ut_formulario
+		FROM
+			apex_objeto_ut_formulario as prop_basicas
+		WHERE
+			(prop_basicas.objeto_ut_formulario_proyecto, prop_basicas.objeto_ut_formulario) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2534' ) )
+
+[DEBUG][toba] TABLA: [apex_objeto_ei_formulario_ef]
+Carga de datos  FILAS: 4
+[DEBUG][toba] AP_TABLA: [apex_ptos_control_x_evento]
+SQL de carga: 
+SELECT
+	puntos_control.objeto, 
+	puntos_control.proyecto, 
+	puntos_control.pto_control, 
+	puntos_control.evento_id
+FROM
+	apex_ptos_control_x_evento as puntos_control
+WHERE
+	(puntos_control.proyecto, puntos_control.evento_id) IN (
+		SELECT
+			proyecto, 
+			evento_id
+		FROM
+			apex_objeto_eventos as eventos
+		WHERE
+			(eventos.proyecto, eventos.objeto) IN (
+				SELECT
+					proyecto, 
+					objeto
+				FROM
+					apex_objeto as base
+				WHERE
+					base.proyecto = 'comunidades' AND
+					base.objeto = '2534' ) )
+
+[DEBUG][toba] AP_TABLA: [apex_ptos_control_x_evento]
+ FILAS: 0
+[DEBUG][toba] componente(1536): toba_datos_relacion: ***   Fin CARGAR (OK) *************************
+[DEBUG][toba] componente(1386): Pantalla de servicio: '1'
+[INFO][toba] componente(1386): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_prop_base.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1355):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1386): [ callback ] 'conf__base'
+[DEBUG][toba] Se elimino el evento: personalizar
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/form_prop_basicas.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1388):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1386): [ callback ] 'conf__prop_basicas'
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 19:04:31
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st5641186d6bec09.68431244&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st5641164dd481e2.67703929&ai=toba_editor||1000256&tcm=central&tz=comunidades||2534&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '1'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'base',
+  1 => 'prop_basicas',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_prop_base.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1355):  IMPLICITO: modificacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/form_prop_basicas.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1388):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1386): [ registrar_evento ] 'modificacion' -> [ evt__base__modificacion ]
+array (
+  0 => 
+  array (
+    'nombre' => 'Personas - CI - editor - form_familiares',
+    'fuente_datos_proyecto' => 'comunidades',
+    'fuente_datos' => 'comunidades',
+    'punto_montaje' => '16',
+    'subclase_archivo' => NULL,
+    'subclase' => NULL,
+    'identificador' => NULL,
+    'titulo' => NULL,
+    'colapsable' => '0',
+    'descripcion' => NULL,
+    'parametro_a' => NULL,
+    'parametro_b' => NULL,
+    'parametro_c' => NULL,
+    'parametro_d' => NULL,
+    'parametro_e' => NULL,
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): [ registrar_evento ] 'modificacion' -> [ evt__prop_basicas__modificacion ]
+array (
+  0 => 
+  array (
+    'comportamiento' => NULL,
+    'filas_agregar' => '1',
+    'filas_agregar_online' => '1',
+    'filas_agregar_abajo' => '0',
+    'filas_agregar_texto' => NULL,
+    'filas_borrar_en_linea' => '0',
+    'filas_ordenar' => '0',
+    'columna_orden' => NULL,
+    'filas_ordenar_en_linea' => '0',
+    'analisis_cambios' => 'EVENTOS',
+    'filas' => NULL,
+    'presentacion' => NULL,
+    'ancho' => NULL,
+    'scroll' => '0',
+    'alto' => NULL,
+    'filas_numerar' => '0',
+    'posicion_botonera' => 'abajo',
+  ),
+)
+[WARNING][toba_editor] componente(1529): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'comportamiento'  no forma parte de la DEFINICION.
+[WARNING][toba_editor] componente(1529): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'presentacion'  no forma parte de la DEFINICION.
+[INFO][toba] componente(1386): [ evento ]  El METODO [ evt__cambiar_tab_2 ] no existe - 'cambiar_tab_2' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'evt__1__salida' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'evt__2__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [callback][ ini__operacion ]
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] Se elimino el evento: aceptar
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_importar'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 19:04:36
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st5641186f2f8084.36076332&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st5641186d6bec09.68431244&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs_importar',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_parentesco',
+      'etiqueta' => 'Parentesco',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Id comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_familiar',
+      'etiqueta' => 'Familiar',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'seleccion' -> [ evt__efs_lista__seleccion ]
+array (
+  0 => '2',
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[DEBUG][toba] componente(1387):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/form_carga.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1000145):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__param_carga'
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 19:04:51
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st56411873c12897.18320015&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st5641186f2f8084.36076332&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs',
+  2 => 'param_carga',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1387):  IMPLICITO: modificacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/form_carga.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1000145):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs__modificacion ]
+array (
+  0 => 
+  array (
+    'columnas' => 'id_familiar',
+    'descripcion' => NULL,
+    'estado_defecto' => NULL,
+    'permitir_html' => '0',
+    'deshabilitar_rest_func' => '0',
+    'total' => '0',
+    'colapsado' => '0',
+    'desactivado' => '0',
+    'estilo' => NULL,
+    'etiqueta_estilo' => NULL,
+    'solo_lectura' => '0',
+    'solo_lectura_modificacion' => '0',
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__param_carga__modificacion ]
+array (
+  0 => 
+  array (
+    'sep_carga' => NULL,
+    'mecanismo' => 'carga_metodo',
+    'tipo_clase' => 'datos_tabla',
+    'carga_dt' => '2494',
+    'punto_montaje' => '16',
+    'carga_include' => NULL,
+    'carga_clase' => NULL,
+    'carga_consulta_php' => NULL,
+    'carga_metodo_lista' => NULL,
+    'carga_metodo' => 'get_nombres',
+    'carga_sql' => NULL,
+    'carga_fuente' => 'comunidades',
+    'carga_col_clave' => 'id_familiar',
+    'carga_col_desc' => 'nombres',
+    'carga_lista' => NULL,
+    'carga_permite_no_seteado' => '0',
+    'carga_no_seteado' => NULL,
+    'carga_no_seteado_ocultar' => '0',
+    'sep' => NULL,
+    'carga_maestros' => NULL,
+    'carga_cascada_relaj' => '0',
+    'cascada_mantiene_estado' => '0',
+  ),
+)
+[WARNING][toba_editor] componente(1530): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'sep_carga'  no forma parte de la DEFINICION.
+[WARNING][toba_editor] componente(1530): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'tipo_clase'  no forma parte de la DEFINICION.
+[WARNING][toba_editor] componente(1530): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'carga_metodo_lista'  no forma parte de la DEFINICION.
+[WARNING][toba_editor] componente(1530): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'sep'  no forma parte de la DEFINICION.
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_parentesco',
+      'etiqueta' => 'Parentesco',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Id comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_familiar',
+      'etiqueta' => 'Familiar',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[DEBUG][toba] componente(1390): [ evento ] 'aceptar' -> [ evt__aceptar ]
+[INFO][toba] componente(1386): [ registrar_evento ]  El METODO [ evt__efs__aceptar ] no existe - 'aceptar' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] Se elimino el evento: aceptar
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_importar'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 19:04:53
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564118839d3851.17743975&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st56411873c12897.18320015&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs_importar',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_parentesco',
+      'etiqueta' => 'Parentesco',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Id comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_familiar',
+      'etiqueta' => 'Familiar',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): [ evento ] 'procesar' -> [ evt__procesar ]
+[DEBUG][toba] ************ ABRIR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] AP_TABLA: [apex_objeto_ei_formulario_ef]
+registro: 2
+ UPDATE apex_objeto_ei_formulario_ef
+SET carga_col_clave = 'id_familiar'
+WHERE objeto_ei_formulario_proyecto = 'comunidades'
+	AND objeto_ei_formulario = '2534'
+	AND objeto_ei_formulario_fila = '5623'
+	AND identificador = 'id_familiar'
+	AND elemento_formulario = 'ef_combo'
+	AND columnas = 'id_familiar'
+	AND obligatorio = '0'
+	AND inicializacion IS NULL
+	AND orden = '4'
+	AND etiqueta = 'Familiar'
+	AND descripcion IS NULL
+	AND colapsado = '0'
+	AND desactivado = '0'
+	AND estilo IS NULL
+	AND total = '0'
+	AND etiqueta_estilo IS NULL
+	AND popup_carga_desc_metodo IS NULL
+	AND popup_carga_desc_clase IS NULL
+	AND popup_carga_desc_include IS NULL
+	AND popup_puede_borrar_estado = '1'
+	AND estado_defecto IS NULL
+	AND solo_lectura = '0'
+	AND carga_metodo = 'get_nombres'
+	AND carga_clase IS NULL
+	AND carga_include IS NULL
+	AND carga_col_clave = 'id_persona'
+	AND carga_col_desc = 'nombres'
+	AND carga_sql IS NULL
+	AND carga_fuente = 'comunidades'
+	AND carga_lista IS NULL
+	AND carga_maestros IS NULL
+	AND carga_cascada_relaj = '0'
+	AND carga_no_seteado IS NULL
+	AND edit_tamano IS NULL
+	AND edit_maximo IS NULL
+	AND edit_mascara IS NULL
+	AND edit_unidad IS NULL
+	AND edit_rango IS NULL
+	AND edit_filas IS NULL
+	AND edit_columnas IS NULL
+	AND edit_wrap IS NULL
+	AND edit_resaltar IS NULL
+	AND edit_ajustable IS NULL
+	AND popup_item = '3509'
+	AND popup_proyecto = 'comunidades'
+	AND popup_editable = '1'
+	AND popup_ventana IS NULL
+	AND fieldset_fin IS NULL
+	AND check_valor_si IS NULL
+	AND check_valor_no IS NULL
+	AND check_desc_si IS NULL
+	AND check_desc_no IS NULL
+	AND fijo_sin_estado IS NULL
+	AND editor_ancho IS NULL
+	AND editor_alto IS NULL
+	AND editor_botonera IS NULL
+	AND selec_cant_minima IS NULL
+	AND selec_cant_maxima IS NULL
+	AND selec_utilidades IS NULL
+	AND selec_tamano IS NULL
+	AND selec_serializar IS NULL
+	AND edit_confirmar_clave IS NULL
+	AND upload_extensiones IS NULL
+	AND selec_ancho IS NULL
+	AND oculto_relaja_obligatorio = '0'
+	AND carga_dt = '2494'
+	AND carga_no_seteado_ocultar = '0'
+	AND carga_consulta_php IS NULL
+	AND edit_expreg IS NULL
+	AND check_ml_toggle IS NULL
+	AND selec_cant_columnas IS NULL
+	AND deshabilitar_rest_func = '0'
+	AND permitir_html = '0'
+	AND carga_permite_no_seteado = '0'
+	AND solo_lectura_modificacion = '0'
+	AND cascada_mantiene_estado = '0'
+	AND punto_montaje = '16'
+	AND placeholder IS NULL;
+[DEBUG][toba] ************ CERRAR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] Se elimino el evento: aceptar
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_importar'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 19:05:46
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564118858ccf03.24962803&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564118839d3851.17743975&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs_importar',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_parentesco',
+      'etiqueta' => 'Parentesco',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Id comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_familiar',
+      'etiqueta' => 'Familiar',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'seleccion' -> [ evt__efs_lista__seleccion ]
+array (
+  0 => '2',
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[DEBUG][toba] componente(1387):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs'
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/form_carga.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1000145):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ callback ] 'conf__param_carga'
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 19:05:57
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564118ba0f30e7.08769107&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564118858ccf03.24962803&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs',
+  2 => 'param_carga',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1387):  IMPLICITO: modificacion
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/form_carga.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1000145):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs__modificacion ]
+array (
+  0 => 
+  array (
+    'columnas' => 'id_familiar',
+    'descripcion' => NULL,
+    'estado_defecto' => NULL,
+    'permitir_html' => '0',
+    'deshabilitar_rest_func' => '0',
+    'total' => '0',
+    'colapsado' => '0',
+    'desactivado' => '0',
+    'estilo' => NULL,
+    'etiqueta_estilo' => NULL,
+    'solo_lectura' => '0',
+    'solo_lectura_modificacion' => '0',
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__param_carga__modificacion ]
+array (
+  0 => 
+  array (
+    'sep_carga' => NULL,
+    'mecanismo' => NULL,
+    'tipo_clase' => 'datos_tabla',
+    'carga_dt' => NULL,
+    'punto_montaje' => '16',
+    'carga_include' => NULL,
+    'carga_clase' => NULL,
+    'carga_consulta_php' => NULL,
+    'carga_metodo_lista' => NULL,
+    'carga_metodo' => NULL,
+    'carga_sql' => NULL,
+    'carga_fuente' => 'comunidades',
+    'carga_col_clave' => NULL,
+    'carga_col_desc' => NULL,
+    'carga_lista' => NULL,
+    'carga_permite_no_seteado' => '0',
+    'carga_no_seteado' => NULL,
+    'carga_no_seteado_ocultar' => '0',
+    'sep' => NULL,
+    'carga_maestros' => NULL,
+    'carga_cascada_relaj' => '0',
+    'cascada_mantiene_estado' => '0',
+  ),
+)
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_parentesco',
+      'etiqueta' => 'Parentesco',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Id comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_familiar',
+      'etiqueta' => 'Familiar',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[DEBUG][toba] componente(1390): [ evento ] 'aceptar' -> [ evt__aceptar ]
+[INFO][toba] componente(1386): [ registrar_evento ]  El METODO [ evt__efs__aceptar ] no existe - 'aceptar' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] Se elimino el evento: aceptar
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_importar'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 19:05:59
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564118c5971585.10067881&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564118ba0f30e7.08769107&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs_importar',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_parentesco',
+      'etiqueta' => 'Parentesco',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Id comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_familiar',
+      'etiqueta' => 'Familiar',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): [ evento ] 'procesar' -> [ evt__procesar ]
+[DEBUG][toba] ************ ABRIR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] AP_TABLA: [apex_objeto_ei_formulario_ef]
+registro: 2
+ UPDATE apex_objeto_ei_formulario_ef
+SET carga_metodo = NULL,
+	carga_dt = NULL
+WHERE objeto_ei_formulario_proyecto = 'comunidades'
+	AND objeto_ei_formulario = '2534'
+	AND objeto_ei_formulario_fila = '5623'
+	AND identificador = 'id_familiar'
+	AND elemento_formulario = 'ef_combo'
+	AND columnas = 'id_familiar'
+	AND obligatorio = '0'
+	AND inicializacion IS NULL
+	AND orden = '4'
+	AND etiqueta = 'Familiar'
+	AND descripcion IS NULL
+	AND colapsado = '0'
+	AND desactivado = '0'
+	AND estilo IS NULL
+	AND total = '0'
+	AND etiqueta_estilo IS NULL
+	AND popup_carga_desc_metodo IS NULL
+	AND popup_carga_desc_clase IS NULL
+	AND popup_carga_desc_include IS NULL
+	AND popup_puede_borrar_estado = '1'
+	AND estado_defecto IS NULL
+	AND solo_lectura = '0'
+	AND carga_metodo = 'get_nombres'
+	AND carga_clase IS NULL
+	AND carga_include IS NULL
+	AND carga_col_clave = 'id_familiar'
+	AND carga_col_desc = 'nombres'
+	AND carga_sql IS NULL
+	AND carga_fuente = 'comunidades'
+	AND carga_lista IS NULL
+	AND carga_maestros IS NULL
+	AND carga_cascada_relaj = '0'
+	AND carga_no_seteado IS NULL
+	AND edit_tamano IS NULL
+	AND edit_maximo IS NULL
+	AND edit_mascara IS NULL
+	AND edit_unidad IS NULL
+	AND edit_rango IS NULL
+	AND edit_filas IS NULL
+	AND edit_columnas IS NULL
+	AND edit_wrap IS NULL
+	AND edit_resaltar IS NULL
+	AND edit_ajustable IS NULL
+	AND popup_item = '3509'
+	AND popup_proyecto = 'comunidades'
+	AND popup_editable = '1'
+	AND popup_ventana IS NULL
+	AND fieldset_fin IS NULL
+	AND check_valor_si IS NULL
+	AND check_valor_no IS NULL
+	AND check_desc_si IS NULL
+	AND check_desc_no IS NULL
+	AND fijo_sin_estado IS NULL
+	AND editor_ancho IS NULL
+	AND editor_alto IS NULL
+	AND editor_botonera IS NULL
+	AND selec_cant_minima IS NULL
+	AND selec_cant_maxima IS NULL
+	AND selec_utilidades IS NULL
+	AND selec_tamano IS NULL
+	AND selec_serializar IS NULL
+	AND edit_confirmar_clave IS NULL
+	AND upload_extensiones IS NULL
+	AND selec_ancho IS NULL
+	AND oculto_relaja_obligatorio = '0'
+	AND carga_dt = '2494'
+	AND carga_no_seteado_ocultar = '0'
+	AND carga_consulta_php IS NULL
+	AND edit_expreg IS NULL
+	AND check_ml_toggle IS NULL
+	AND selec_cant_columnas IS NULL
+	AND deshabilitar_rest_func = '0'
+	AND permitir_html = '0'
+	AND carga_permite_no_seteado = '0'
+	AND solo_lectura_modificacion = '0'
+	AND cascada_mantiene_estado = '0'
+	AND punto_montaje = '16'
+	AND placeholder IS NULL;
+[DEBUG][toba] ************ CERRAR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] Se elimino el evento: aceptar
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_importar'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-11-2015 19:07:49
+Operacion: Editor ei_formulario_ml
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_editor/2.7/aplicacion.php?ah=st564118c7647190.17049453&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st564118c5971585.10067881&ai=toba_editor||1000256&tz=0%5E%5Ecomunidades||1%5E%5E2534
+Host: 10.0.2.2
+==========
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase customizacion_toba/sesion_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba_editor] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_editor] Cargando la zona 'zona_objeto' con el editable 'array (
+  0 => 'comunidades',
+  1 => '2534',
+)'
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/ei_formulario_ml/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): Pantalla de eventos: '2'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(1386): [ inicializar_dependencias ]
+array (
+  0 => 'efs',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/efs/ci_efs.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1390): Pantalla de eventos: '1'
+[DEBUG][toba] componente(1390): [ inicializar_dependencias ]
+array (
+  0 => 'efs_lista',
+  1 => 'efs_importar',
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase objetos_toba/eiform_abm_detalle.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1389):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1390): [ registrar_evento ] 'modificacion' -> [ evt__efs_lista__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'identificador' => 'id_persona',
+      'etiqueta' => 'Id persona',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 0,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    1 => 
+    array (
+      'identificador' => 'id_parentesco',
+      'etiqueta' => 'Parentesco',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 1,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    3 => 
+    array (
+      'identificador' => 'id_comunidad',
+      'etiqueta' => 'Id comunidad',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_combo',
+      'x_dbr_clave' => 3,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+    2 => 
+    array (
+      'identificador' => 'id_familiar',
+      'etiqueta' => 'Familiar',
+      'obligatorio' => '0',
+      'oculto_relaja_obligatorio' => '0',
+      'elemento_formulario' => 'ef_editable',
+      'x_dbr_clave' => 2,
+      'apex_ei_analisis_fila' => 'M',
+    ),
+  ),
+)
+[INFO][toba_editor] PUNTO MONTAJE: se cargó la clase db/odt_eventos.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_editor/php
+[DEBUG][toba] componente(1386): [ evento ] 'procesar' -> [ evt__procesar ]
+[DEBUG][toba] ************ ABRIR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] AP_TABLA: [apex_objeto_ei_formulario_ef]
+registro: 2
+ UPDATE apex_objeto_ei_formulario_ef
+SET elemento_formulario = 'ef_editable'
+WHERE objeto_ei_formulario_proyecto = 'comunidades'
+	AND objeto_ei_formulario = '2534'
+	AND objeto_ei_formulario_fila = '5623'
+	AND identificador = 'id_familiar'
+	AND elemento_formulario = 'ef_combo'
+	AND columnas = 'id_familiar'
+	AND obligatorio = '0'
+	AND inicializacion IS NULL
+	AND orden = '4'
+	AND etiqueta = 'Familiar'
+	AND descripcion IS NULL
+	AND colapsado = '0'
+	AND desactivado = '0'
+	AND estilo IS NULL
+	AND total = '0'
+	AND etiqueta_estilo IS NULL
+	AND popup_carga_desc_metodo IS NULL
+	AND popup_carga_desc_clase IS NULL
+	AND popup_carga_desc_include IS NULL
+	AND popup_puede_borrar_estado = '1'
+	AND estado_defecto IS NULL
+	AND solo_lectura = '0'
+	AND carga_metodo IS NULL
+	AND carga_clase IS NULL
+	AND carga_include IS NULL
+	AND carga_col_clave = 'id_familiar'
+	AND carga_col_desc = 'nombres'
+	AND carga_sql IS NULL
+	AND carga_fuente = 'comunidades'
+	AND carga_lista IS NULL
+	AND carga_maestros IS NULL
+	AND carga_cascada_relaj = '0'
+	AND carga_no_seteado IS NULL
+	AND edit_tamano IS NULL
+	AND edit_maximo IS NULL
+	AND edit_mascara IS NULL
+	AND edit_unidad IS NULL
+	AND edit_rango IS NULL
+	AND edit_filas IS NULL
+	AND edit_columnas IS NULL
+	AND edit_wrap IS NULL
+	AND edit_resaltar IS NULL
+	AND edit_ajustable IS NULL
+	AND popup_item = '3509'
+	AND popup_proyecto = 'comunidades'
+	AND popup_editable = '1'
+	AND popup_ventana IS NULL
+	AND fieldset_fin IS NULL
+	AND check_valor_si IS NULL
+	AND check_valor_no IS NULL
+	AND check_desc_si IS NULL
+	AND check_desc_no IS NULL
+	AND fijo_sin_estado IS NULL
+	AND editor_ancho IS NULL
+	AND editor_alto IS NULL
+	AND editor_botonera IS NULL
+	AND selec_cant_minima IS NULL
+	AND selec_cant_maxima IS NULL
+	AND selec_utilidades IS NULL
+	AND selec_tamano IS NULL
+	AND selec_serializar IS NULL
+	AND edit_confirmar_clave IS NULL
+	AND upload_extensiones IS NULL
+	AND selec_ancho IS NULL
+	AND oculto_relaja_obligatorio = '0'
+	AND carga_dt IS NULL
+	AND carga_no_seteado_ocultar = '0'
+	AND carga_consulta_php IS NULL
+	AND edit_expreg IS NULL
+	AND check_ml_toggle IS NULL
+	AND selec_cant_columnas IS NULL
+	AND deshabilitar_rest_func = '0'
+	AND permitir_html = '0'
+	AND carga_permite_no_seteado = '0'
+	AND solo_lectura_modificacion = '0'
+	AND cascada_mantiene_estado = '0'
+	AND punto_montaje = '16'
+	AND placeholder IS NULL;
+[DEBUG][toba] ************ CERRAR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1386): Pantalla de servicio: '2'
+[INFO][toba] componente(1386): [ callback ] 'conf__2' no fue atrapado
+[DEBUG][toba] componente(1390): Pantalla de servicio: '1'
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] Se elimino el evento: aceptar
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_importar'
+[DEBUG][toba] componente(1390): [ callback ] 'conf__efs_lista'
+[DEBUG][toba] Se elimino el evento: mostrar_esquema
+[INFO][toba] componente(1390): [ callback ] 'conf__1' no fue atrapado
+[INFO][toba] componente(1386): [ callback ] 'conf__efs' no fue atrapado
+[DEBUG][toba_editor] La ventana de configuración de la zona no ha sido usada.
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+

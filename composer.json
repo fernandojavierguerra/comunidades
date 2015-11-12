@@ -1,0 +1,17 @@
+{
+  "name": "ayllu/comunidades",
+  "description": "comunidades",
+
+  "repositories": [{
+     "type": "composer",
+     "url": "http://satis.siu.edu.ar"
+   }
+   ],
+
+  "require": {
+    "siu-toba/framework": "2.7.x-dev"
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": false
+}
