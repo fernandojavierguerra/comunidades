@@ -1,0 +1,1830 @@
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:32:14
+Operacion: Autentificación de Usuarios
+Usuario: no_autentificado
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/
+Host: 10.0.2.2
+==========
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] Se cambia el ítem solicitado a =>array (
+  0 => 'toba_usuarios',
+  1 => '33000037',
+)
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase login/ci_login.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(33000131): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(33000131): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(33000131): Pantalla de servicio: 'login'
+[DEBUG][toba] componente(33000131): [ callback ] 'conf__login'
+[DEBUG][toba] componente(33000131): [ callback ] 'conf__datos'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:32:21
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf14179900.26625231&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf0df39fe9.55007932&ai=toba_usuarios||33000037
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(2190): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'seleccionar'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__seleccionar'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_filtro_usuarios.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): [ callback ] 'conf__filtro'
+[DEBUG][toba] Se filtro el evento: cancelar
+[DEBUG][toba] componente(2190): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:32:27
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf14cef783.43718187&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf14179900.26625231&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'seleccionar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'filtro',
+  1 => 'cuadro',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_filtro_usuarios.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): [ registrar_evento ] 'filtrar' -> [ evt__filtro__filtrar ]
+array (
+  0 => 
+  array (
+    'usuario' => NULL,
+    'nombre' => NULL,
+    'pertenencia' => 'T',
+    'proyecto' => 'comunidades',
+  ),
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'seleccionar'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__seleccionar'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__filtro'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:32:30
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf1ae230d1.54674945&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf14cef783.43718187&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'seleccionar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ evento ] 'agregar' -> [ evt__agregar ]
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): [callback][ ini__operacion ]
+[INFO][toba] componente(2190): [ callback ] 'evt__seleccionar__salida' no fue atrapado
+[INFO][toba] componente(2190): [ callback ] 'evt__editar__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'editar'
+[INFO][toba] componente(2190): [ callback ] 'conf__editar' no fue atrapado
+[DEBUG][toba] Se elimino el evento: eliminar
+[DEBUG][toba] componente(2188): Pantalla de servicio: 'usuario'
+[INFO][toba] componente(2188): [ callback ] 'conf__usuario' no fue atrapado
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_basica.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2185):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2188): [ callback ] 'conf__basica'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase /usuarios/form_ml_resp_secreta.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(33000065):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2188): [ callback ] 'conf__form_pregunta_secreta'
+[INFO][toba] componente(2190): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:06
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf1e051be3.04847444&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf1ae230d1.54674945&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'editar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): Pantalla de eventos: 'usuario'
+[DEBUG][toba] componente(2188): [ inicializar_dependencias ]
+array (
+  0 => 'basica',
+  1 => 'form_pregunta_secreta',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_basica.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2185):  IMPLICITO: modificacion
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase /usuarios/form_ml_resp_secreta.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(33000065):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2188): [ registrar_evento ] 'modificacion' -> [ evt__basica__modificacion ]
+array (
+  0 => 
+  array (
+    'usuario' => 'jguerra',
+    'nombre' => 'Javier Guerra',
+    'clave' => '1234Abcd',
+    'autentificacion' => NULL,
+    'email' => NULL,
+    'bloqueado' => '0',
+    'parametro_a' => NULL,
+    'parametro_b' => NULL,
+    'parametro_c' => NULL,
+    'forzar_cambio_pwd' => '0',
+    'vencimiento' => NULL,
+  ),
+)
+[DEBUG][toba_usuarios] Expresion evaluacion: /^(?!.*(.)\1{1})((?=.*[^\w\d\s])(?=.*[a-zA-Z])|(?=.*[0-9])(?=.*[a-zA-Z])).{8,}$/
+[DEBUG][toba] TABLA: [apex_usuario]
+Nuevo cursor '0' en reemplazo del anterior ''
+[DEBUG][toba] componente(2188): [ registrar_evento ] 'modificacion' -> [ evt__form_pregunta_secreta__modificacion ]
+array (
+  0 => 
+  array (
+  ),
+)
+[INFO][toba] componente(2188): [ evento ]  El METODO [ evt__cambiar_tab_proyecto ] no existe - 'cambiar_tab_proyecto' no fue atrapado
+[INFO][toba] componente(2188): [ callback ] 'evt__usuario__salida' no fue atrapado
+[INFO][toba] componente(2188): [ callback ] 'evt__proyecto__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'editar'
+[INFO][toba] componente(2190): [ callback ] 'conf__editar' no fue atrapado
+[DEBUG][toba] Se elimino el evento: eliminar
+[DEBUG][toba] componente(2188): Pantalla de servicio: 'proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__cuadro_proyectos'
+[INFO][toba] componente(2190): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:09
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf41d773d3.90299617&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf1e051be3.04847444&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'editar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): Pantalla de eventos: 'proyecto'
+[DEBUG][toba] componente(2188): [ inicializar_dependencias ]
+array (
+  0 => 'cuadro_proyectos',
+)
+[DEBUG][toba] componente(2188): [ registrar_evento ] 'seleccion' -> [ evt__cuadro_proyectos__seleccion ]
+array (
+  0 => 
+  array (
+    'proyecto' => 'comunidades',
+  ),
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'editar'
+[INFO][toba] componente(2190): [ callback ] 'conf__editar' no fue atrapado
+[DEBUG][toba] Se elimino el evento: eliminar
+[DEBUG][toba] componente(2188): Pantalla de servicio: 'proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__cuadro_proyectos'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__form_proyectos'
+[DEBUG][toba] Se elimino el evento: baja
+[INFO][toba] componente(2190): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:20
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf44dd6592.62709963&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf41d773d3.90299617&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'editar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): Pantalla de eventos: 'proyecto'
+[DEBUG][toba] componente(2188): [ inicializar_dependencias ]
+array (
+  0 => 'cuadro_proyectos',
+  1 => 'form_proyectos',
+)
+[DEBUG][toba] componente(2188): [ registrar_evento ] 'modificacion' -> [ evt__form_proyectos__modificacion ]
+array (
+  0 => 
+  array (
+    'proyecto' => 'comunidades',
+    'usuario_grupo_acc' => 
+    array (
+      0 => 'admin',
+    ),
+    'usuario_perfil_datos' => '8',
+  ),
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'editar'
+[INFO][toba] componente(2190): [ callback ] 'conf__editar' no fue atrapado
+[DEBUG][toba] Se elimino el evento: eliminar
+[DEBUG][toba] componente(2188): Pantalla de servicio: 'proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__cuadro_proyectos'
+[INFO][toba] componente(2190): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:22
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf501e0596.98193756&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf44dd6592.62709963&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'editar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): Pantalla de eventos: 'proyecto'
+[DEBUG][toba] componente(2188): [ inicializar_dependencias ]
+array (
+  0 => 'cuadro_proyectos',
+)
+[DEBUG][toba] componente(2190): [ evento ] 'guardar' -> [ evt__guardar ]
+[DEBUG][toba] ************ ABRIR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] AP_TABLA: [apex_usuario]
+registro: 0 - INSERT INTO apex_usuario ( autentificacion, clave, email, nombre, parametro_a, parametro_b, parametro_c, usuario, vencimiento, bloqueado, forzar_cambio_pwd ) 
+ VALUES ('bcrypt', '$2y$10$Nv1JjIqHNLoVrYntjenQeuXXGp18sXZfA15YvXIwdNUuZCUyxqUe6', DEFAULT, 'Javier Guerra', DEFAULT, DEFAULT, DEFAULT, 'jguerra', DEFAULT, '0', '0');
+[DEBUG][toba] AP_TABLA: [apex_usuario_proyecto]
+registro: 0 - INSERT INTO apex_usuario_proyecto ( proyecto, usuario, usuario_grupo_acc ) 
+ VALUES ('comunidades', 'jguerra', 'admin');
+[DEBUG][toba] AP_TABLA: [apex_usuario_proyecto_perfil_datos]
+registro: 0 - INSERT INTO apex_usuario_proyecto_perfil_datos ( proyecto, usuario_perfil_datos, usuario ) 
+ VALUES ('comunidades', '8', 'jguerra');
+[DEBUG][toba] ************ CERRAR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] TABLA: [apex_usuario]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_proyecto]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_proyecto]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_proyecto_perfil_datos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_proyecto_perfil_datos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_pregunta_secreta]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_pregunta_secreta]
+Se resetea el cursor
+[INFO][toba] componente(2190): [ callback ] 'evt__editar__salida' no fue atrapado
+[INFO][toba] componente(2190): [ callback ] 'evt__seleccionar__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'seleccionar'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__seleccionar'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_filtro_usuarios.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): [ callback ] 'conf__filtro'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:28
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?tm=1&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf501e0596.98193756&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(2219): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'seleccion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__seleccion'
+[DEBUG][toba] Se elimino el evento: agregar
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/form_proyecto.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): [ callback ] 'conf__filtro'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:31
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf58cbfa92.35854301&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?tm=1&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'seleccion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ inicializar_dependencias ]
+array (
+  0 => 'filtro',
+  1 => 'cuadro',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/form_proyecto.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): [ registrar_evento ] 'filtrar' -> [ evt__filtro__filtrar ]
+array (
+  0 => 
+  array (
+    'proyecto' => 'comunidades',
+  ),
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'seleccion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__seleccion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__filtro'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:33
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf5b7ecbd6.31349413&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf58cbfa92.35854301&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'seleccion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ inicializar_dependencias ]
+array (
+  0 => 'filtro',
+  1 => 'cuadro',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/form_proyecto.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): [ registrar_evento ] 'seleccion' -> [ evt__cuadro__seleccion ]
+array (
+  0 => 
+  array (
+    'proyecto' => 'comunidades',
+    'usuario_perfil_datos' => '8',
+  ),
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2223): [callback][ ini__operacion ]
+[DEBUG][toba] componente(2220): toba_datos_relacion: ***   Inicio CARGAR ****************************
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+Se resetea el cursor
+[DEBUG][toba] AP_TABLA: [apex_usuario_perfil_datos]
+SQL de carga: 
+SELECT
+	perfil.proyecto, 
+	perfil.usuario_perfil_datos, 
+	perfil.nombre, 
+	perfil.descripcion, 
+	perfil.listar
+FROM
+	apex_usuario_perfil_datos as perfil
+WHERE
+	perfil.proyecto = 'comunidades' AND
+	perfil.usuario_perfil_datos = '8'
+
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_usuario_perfil_datos_dims]
+SQL de carga: 
+SELECT
+	dims.proyecto, 
+	dims.usuario_perfil_datos, 
+	dims.dimension, 
+	dims.elemento, 
+	dims.clave
+FROM
+	apex_usuario_perfil_datos_dims as dims
+WHERE
+	(dims.proyecto, dims.usuario_perfil_datos) IN (
+		SELECT
+			proyecto, 
+			usuario_perfil_datos
+		FROM
+			apex_usuario_perfil_datos as perfil
+		WHERE
+			perfil.proyecto = 'comunidades' AND
+			perfil.usuario_perfil_datos = '8' )
+
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+Carga de datos  FILAS: 1
+[DEBUG][toba] componente(2220): toba_datos_relacion: ***   Fin CARGAR (OK) *************************
+[INFO][toba] componente(2219): [ callback ] 'evt__seleccion__salida' no fue atrapado
+[INFO][toba] componente(2219): [ callback ] 'evt__edicion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'edicion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__edicion'
+[DEBUG][toba_usuarios] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_usuarios] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_usuarios] INSTANCIA "desarrollo"
+[DEBUG][toba] componente(2223): Pantalla de servicio: 'pant_perfil'
+[INFO][toba] componente(2223): [ callback ] 'conf__pant_perfil' no fue atrapado
+[DEBUG][toba] componente(2224):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ callback ] 'conf__perfil'
+[DEBUG][toba] componente(2223): [ callback ] 'conf__dimensiones'
+[INFO][toba] componente(2219): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:35
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf5d3fee68.10618866&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf5b7ecbd6.31349413&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'edicion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2223): Pantalla de eventos: 'pant_perfil'
+[DEBUG][toba] componente(2223): [ inicializar_dependencias ]
+array (
+  0 => 'perfil',
+  1 => 'dimensiones',
+)
+[DEBUG][toba] componente(2224):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ registrar_evento ] 'modificacion' -> [ evt__perfil__modificacion ]
+array (
+  0 => 
+  array (
+    'nombre' => 'Exploradores',
+    'descripcion' => 'Exploradores',
+  ),
+)
+[DEBUG][toba] componente(2223): [ registrar_evento ] 'seleccion' -> [ evt__dimensiones__seleccion ]
+array (
+  0 => 
+  array (
+    'dimension' => '14',
+  ),
+)
+[INFO][toba] componente(2223): [ callback ] 'evt__pant_perfil__salida' no fue atrapado
+[INFO][toba] componente(2223): [ callback ] 'evt__pant_dimensiones__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'edicion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__edicion'
+[DEBUG][toba_usuarios] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_usuarios] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_usuarios] INSTANCIA "desarrollo"
+[DEBUG][toba] componente(2223): Pantalla de servicio: 'pant_dimensiones'
+[DEBUG][toba] componente(2223): [ callback ] 'conf__pant_dimensiones'
+[DEBUG][toba] Se elimino el evento: guardar
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] Se elimino el evento: eliminar
+[DEBUG][toba] componente(2225):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ callback ] 'conf__elementos'
+[DEBUG][toba_usuarios] SELECT id_comunidad as clave, comunidad as descripcion
+				FROM comunidades
+				ORDER BY descripcion
+[INFO][toba] componente(2219): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:41
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf5f8033d0.22901843&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf5d3fee68.10618866&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'edicion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2223): Pantalla de eventos: 'pant_dimensiones'
+[DEBUG][toba] componente(2223): [ evento ] 'volver' -> [ evt__volver ]
+[INFO][toba] componente(2219): [ registrar_evento ]  El METODO [ evt__editor__volver ] no existe - 'volver' no fue atrapado
+[INFO][toba] componente(2223): [ callback ] 'evt__pant_dimensiones__salida' no fue atrapado
+[INFO][toba] componente(2223): [ callback ] 'evt__pant_perfil__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'edicion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__edicion'
+[DEBUG][toba_usuarios] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_usuarios] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_usuarios] INSTANCIA "desarrollo"
+[DEBUG][toba] componente(2223): Pantalla de servicio: 'pant_perfil'
+[INFO][toba] componente(2223): [ callback ] 'conf__pant_perfil' no fue atrapado
+[DEBUG][toba] componente(2224):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ callback ] 'conf__perfil'
+[DEBUG][toba] componente(2223): [ callback ] 'conf__dimensiones'
+[INFO][toba] componente(2219): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:45
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf650810d3.44859611&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf5f8033d0.22901843&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'edicion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ evento ] 'cancelar' -> [ evt__cancelar ]
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+Se resetea el cursor
+[INFO][toba] componente(2219): [ callback ] 'evt__edicion__salida' no fue atrapado
+[INFO][toba] componente(2219): [ callback ] 'evt__seleccion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'seleccion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__seleccion'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/form_proyecto.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): [ callback ] 'conf__filtro'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:47
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf690beab4.86769376&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf650810d3.44859611&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'seleccion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ evento ] 'agregar' -> [ evt__agregar ]
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[INFO][toba] componente(2219): [ callback ] 'evt__seleccion__salida' no fue atrapado
+[INFO][toba] componente(2219): [ callback ] 'evt__edicion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'edicion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__edicion'
+[DEBUG][toba] Se elimino el evento: eliminar
+[DEBUG][toba_usuarios] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_usuarios] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_usuarios] INSTANCIA "desarrollo"
+[DEBUG][toba] componente(2223): Pantalla de servicio: 'pant_perfil'
+[INFO][toba] componente(2223): [ callback ] 'conf__pant_perfil' no fue atrapado
+[DEBUG][toba] componente(2224):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ callback ] 'conf__perfil'
+[DEBUG][toba] componente(2223): [ callback ] 'conf__dimensiones'
+[INFO][toba] componente(2219): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:52
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf6b2c6763.09893871&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf690beab4.86769376&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'edicion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2223): Pantalla de eventos: 'pant_perfil'
+[DEBUG][toba] componente(2223): [ inicializar_dependencias ]
+array (
+  0 => 'perfil',
+  1 => 'dimensiones',
+)
+[DEBUG][toba] componente(2224):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ registrar_evento ] 'modificacion' -> [ evt__perfil__modificacion ]
+array (
+  0 => 
+  array (
+    'nombre' => 'CMS',
+    'descripcion' => NULL,
+  ),
+)
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+Nuevo cursor '0' en reemplazo del anterior ''
+[DEBUG][toba] componente(2223): [ registrar_evento ] 'seleccion' -> [ evt__dimensiones__seleccion ]
+array (
+  0 => 
+  array (
+    'dimension' => '14',
+  ),
+)
+[INFO][toba] componente(2223): [ callback ] 'evt__pant_perfil__salida' no fue atrapado
+[INFO][toba] componente(2223): [ callback ] 'evt__pant_dimensiones__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'edicion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__edicion'
+[DEBUG][toba] Se elimino el evento: eliminar
+[DEBUG][toba_usuarios] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_usuarios] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_usuarios] INSTANCIA "desarrollo"
+[DEBUG][toba] componente(2223): Pantalla de servicio: 'pant_dimensiones'
+[DEBUG][toba] componente(2223): [ callback ] 'conf__pant_dimensiones'
+[DEBUG][toba] Se elimino el evento: guardar
+[DEBUG][toba] Se elimino el evento: cancelar
+[DEBUG][toba] componente(2225):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ callback ] 'conf__elementos'
+[DEBUG][toba_usuarios] SELECT id_comunidad as clave, comunidad as descripcion
+				FROM comunidades
+				ORDER BY descripcion
+[INFO][toba] componente(2219): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:56
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf70889fb8.40551517&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf6b2c6763.09893871&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'edicion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2223): Pantalla de eventos: 'pant_dimensiones'
+[DEBUG][toba] componente(2223): [ inicializar_dependencias ]
+array (
+  0 => 'elementos',
+)
+[DEBUG][toba] componente(2225):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ registrar_evento ] 'modificacion' -> [ evt__elementos__modificacion ]
+array (
+  0 => 
+  array (
+    0 => 
+    array (
+      'descripcion' => 'CMS',
+      'clave' => 1,
+      'habilitar' => '1',
+      'x_dbr_clave' => 0,
+    ),
+    1 => 
+    array (
+      'descripcion' => 'Exploradores',
+      'clave' => 2,
+      'habilitar' => '0',
+      'x_dbr_clave' => 1,
+    ),
+  ),
+)
+[WARNING][toba_usuarios] componente(2222): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'descripcion'  no forma parte de la DEFINICION.
+[WARNING][toba_usuarios] componente(2222): toba_datos_tabla El registro tiene una estructura incorrecta: El campo 'habilitar'  no forma parte de la DEFINICION.
+[DEBUG][toba] componente(2223): [ evento ] 'aceptar' -> [ evt__aceptar ]
+[INFO][toba] componente(2219): [ registrar_evento ]  El METODO [ evt__editor__aceptar ] no existe - 'aceptar' no fue atrapado
+[INFO][toba] componente(2223): [ callback ] 'evt__pant_dimensiones__salida' no fue atrapado
+[INFO][toba] componente(2223): [ callback ] 'evt__pant_perfil__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'edicion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__edicion'
+[DEBUG][toba] Se elimino el evento: eliminar
+[DEBUG][toba_usuarios] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_usuarios] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_usuarios] INSTANCIA "desarrollo"
+[DEBUG][toba] componente(2223): Pantalla de servicio: 'pant_perfil'
+[INFO][toba] componente(2223): [ callback ] 'conf__pant_perfil' no fue atrapado
+[DEBUG][toba] componente(2224):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ callback ] 'conf__perfil'
+[DEBUG][toba] componente(2223): [ callback ] 'conf__dimensiones'
+[INFO][toba] componente(2219): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:33:58
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf73b821d3.65956185&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf70889fb8.40551517&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'edicion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2223): Pantalla de eventos: 'pant_perfil'
+[DEBUG][toba] componente(2223): [ inicializar_dependencias ]
+array (
+  0 => 'perfil',
+  1 => 'dimensiones',
+)
+[DEBUG][toba] componente(2224):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ registrar_evento ] 'modificacion' -> [ evt__perfil__modificacion ]
+array (
+  0 => 
+  array (
+    'nombre' => 'CMS',
+    'descripcion' => NULL,
+  ),
+)
+[DEBUG][toba] componente(2219): [ evento ] 'guardar' -> [ evt__guardar ]
+[DEBUG][toba] ************ ABRIR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] AP_TABLA: [apex_usuario_perfil_datos]
+registro: 0 - INSERT INTO apex_usuario_perfil_datos ( proyecto, nombre, descripcion, listar ) 
+ VALUES ('comunidades', 'CMS', DEFAULT, DEFAULT);
+[DEBUG][toba] AP_TABLA: [apex_usuario_perfil_datos_dims]
+registro: 0 - INSERT INTO apex_usuario_perfil_datos_dims ( proyecto, usuario_perfil_datos, dimension, clave ) 
+ VALUES ('comunidades', '9', '14', '1');
+[DEBUG][toba] ************ CERRAR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+Se resetea el cursor
+[DEBUG][toba_usuarios] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_usuarios] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_usuarios] INSTANCIA "desarrollo"
+[INFO][toba] componente(2219): [ callback ] 'evt__edicion__salida' no fue atrapado
+[INFO][toba] componente(2219): [ callback ] 'evt__seleccion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'seleccion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__seleccion'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/form_proyecto.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): [ callback ] 'conf__filtro'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:34:01
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf7617d265.20315740&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf73b821d3.65956185&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'seleccion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ inicializar_dependencias ]
+array (
+  0 => 'filtro',
+  1 => 'cuadro',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/form_proyecto.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): [ registrar_evento ] 'seleccion' -> [ evt__cuadro__seleccion ]
+array (
+  0 => 
+  array (
+    'proyecto' => 'comunidades',
+    'usuario_perfil_datos' => '9',
+  ),
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2220): toba_datos_relacion: ***   Inicio CARGAR ****************************
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+Se resetea el cursor
+[DEBUG][toba] AP_TABLA: [apex_usuario_perfil_datos]
+SQL de carga: 
+SELECT
+	perfil.proyecto, 
+	perfil.usuario_perfil_datos, 
+	perfil.nombre, 
+	perfil.descripcion, 
+	perfil.listar
+FROM
+	apex_usuario_perfil_datos as perfil
+WHERE
+	perfil.proyecto = 'comunidades' AND
+	perfil.usuario_perfil_datos = '9'
+
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_usuario_perfil_datos_dims]
+SQL de carga: 
+SELECT
+	dims.proyecto, 
+	dims.usuario_perfil_datos, 
+	dims.dimension, 
+	dims.elemento, 
+	dims.clave
+FROM
+	apex_usuario_perfil_datos_dims as dims
+WHERE
+	(dims.proyecto, dims.usuario_perfil_datos) IN (
+		SELECT
+			proyecto, 
+			usuario_perfil_datos
+		FROM
+			apex_usuario_perfil_datos as perfil
+		WHERE
+			perfil.proyecto = 'comunidades' AND
+			perfil.usuario_perfil_datos = '9' )
+
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+Carga de datos  FILAS: 1
+[DEBUG][toba] componente(2220): toba_datos_relacion: ***   Fin CARGAR (OK) *************************
+[INFO][toba] componente(2219): [ callback ] 'evt__seleccion__salida' no fue atrapado
+[INFO][toba] componente(2219): [ callback ] 'evt__edicion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'edicion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__edicion'
+[DEBUG][toba_usuarios] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_usuarios] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_usuarios] INSTANCIA "desarrollo"
+[DEBUG][toba] componente(2223): Pantalla de servicio: 'pant_perfil'
+[INFO][toba] componente(2223): [ callback ] 'conf__pant_perfil' no fue atrapado
+[DEBUG][toba] componente(2224):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ callback ] 'conf__perfil'
+[DEBUG][toba] componente(2223): [ callback ] 'conf__dimensiones'
+[INFO][toba] componente(2219): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:34:06
+Operacion: Perfiles de Datos
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf78b9e3d2.04144373&ai=toba_usuarios||3438
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf7617d265.20315740&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): Pantalla de eventos: 'edicion'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2219): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/perfil_datos/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2223): Pantalla de eventos: 'pant_perfil'
+[DEBUG][toba] componente(2223): [ inicializar_dependencias ]
+array (
+  0 => 'perfil',
+  1 => 'dimensiones',
+)
+[DEBUG][toba] componente(2224):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2223): [ registrar_evento ] 'modificacion' -> [ evt__perfil__modificacion ]
+array (
+  0 => 
+  array (
+    'nombre' => 'CMS',
+    'descripcion' => 'CMS',
+  ),
+)
+[DEBUG][toba] componente(2219): [ evento ] 'guardar' -> [ evt__guardar ]
+[DEBUG][toba] ************ ABRIR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] AP_TABLA: [apex_usuario_perfil_datos]
+registro: 0
+ UPDATE apex_usuario_perfil_datos
+SET descripcion = 'CMS'
+WHERE proyecto = 'comunidades'
+	AND usuario_perfil_datos = '9'
+	AND nombre = 'CMS'
+	AND descripcion IS NULL
+	AND listar IS NULL;
+[DEBUG][toba] ************ CERRAR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_perfil_datos_dims]
+Se resetea el cursor
+[DEBUG][toba_usuarios] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_usuarios] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_usuarios] INSTANCIA "desarrollo"
+[INFO][toba] componente(2219): [ callback ] 'evt__edicion__salida' no fue atrapado
+[INFO][toba] componente(2219): [ callback ] 'evt__seleccion__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2219): Pantalla de servicio: 'seleccion'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__seleccion'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase perfiles/form_proyecto.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2219): [ callback ] 'conf__filtro'
+[DEBUG][toba] componente(2219): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:34:13
+Operacion: Autentificación de Usuarios
+Usuario: no_autentificado
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?fs=1
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bf78b9e3d2.04144373&ai=toba_usuarios||3438
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] Pérdida de sesión: Finalizada por el usuario
+[DEBUG][toba] BORRAR segmento memoria PROYECTO: toba_usuarios
+[DEBUG][toba] BORRAR segmento memoria INSTANCIA: desarrollo
+[DEBUG][toba] BORRAR segmento memoria INSTALACION
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] Se cambia el ítem solicitado a =>array (
+  0 => 'toba_usuarios',
+  1 => '33000037',
+)
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase login/ci_login.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(33000131): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(33000131): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(33000131): Pantalla de servicio: 'login'
+[DEBUG][toba] componente(33000131): [ callback ] 'conf__login'
+[DEBUG][toba] componente(33000131): [ callback ] 'conf__datos'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:34:50
+Usuario: jguerra
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf84e53a32.37580110&ai=toba_usuarios||33000037
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?fs=1
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] Cargando USUARIO 'jguerra' en el proyecto 'toba_usuarios'
+[DEBUG][toba] Crear SESION '19' en el proyecto 'toba_usuarios'
+[DEBUG][toba] Se creo la SESION [usuario: jguerra ]
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] Se cambia el ítem solicitado a =>array (
+  0 => 'toba_usuarios',
+  1 => '3432',
+)
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[CRITICAL][toba] toba_error_autorizacion: El usuario no posee permisos para acceder al item solicitado. 
+
+[TRAZA]exception 'toba_error_autorizacion' with message 'El usuario no posee permisos para acceder al item solicitado.' in C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_nucleo.php:290
+Stack trace:
+#0 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_nucleo.php(230): toba_nucleo->autorizar_acceso_item(Array)
+#1 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\nucleo\toba_nucleo.php(79): toba_nucleo->cargar_solicitud_web()
+#2 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\proyectos\toba_usuarios\www\aplicacion.php(14): toba_nucleo->acceso_web()
+#3 {main}
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:35:02
+Operacion: Autentificación de Usuarios
+Usuario: no_autentificado
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bf84e53a32.37580110&ai=toba_usuarios||33000037
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?fs=1
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] Ejecutando: svn info "C:\ServidorWeb\comunidades\vendor\siu-toba\framework/www" --xml  --non-interactive
+
+[INFO][toba_usuarios] Ejecutando: svn info "C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/www" --xml  --non-interactive
+
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase login/ci_login.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(33000131): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(33000131): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(33000131): Pantalla de servicio: 'login'
+[DEBUG][toba] componente(33000131): [ callback ] 'conf__login'
+[DEBUG][toba] componente(33000131): [ callback ] 'conf__datos'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:35:12
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bfbf710dd0.07986332&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bfb626fcb6.02684171&ai=toba_usuarios||33000037
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(2190): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'seleccionar'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__seleccionar'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_filtro_usuarios.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): [ callback ] 'conf__filtro'
+[DEBUG][toba] Se filtro el evento: cancelar
+[DEBUG][toba] componente(2190): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:35:18
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bfc02f6485.43033839&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bfbf710dd0.07986332&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'seleccionar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'filtro',
+  1 => 'cuadro',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_filtro_usuarios.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): [ registrar_evento ] 'filtrar' -> [ evt__filtro__filtrar ]
+array (
+  0 => 
+  array (
+    'usuario' => NULL,
+    'nombre' => NULL,
+    'pertenencia' => 'T',
+    'proyecto' => 'comunidades',
+  ),
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'seleccionar'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__seleccionar'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__filtro'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:35:20
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bfc6a469d2.90525484&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bfc02f6485.43033839&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'seleccionar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'filtro',
+  1 => 'cuadro',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_filtro_usuarios.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): [ registrar_evento ] 'seleccion' -> [ evt__cuadro__seleccion ]
+array (
+  0 => 
+  array (
+    'usuario' => 'jguerra',
+  ),
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): [callback][ ini__operacion ]
+[DEBUG][toba] componente(2191): toba_datos_relacion: ***   Inicio CARGAR ****************************
+[DEBUG][toba] TABLA: [apex_usuario]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_proyecto]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_proyecto]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_proyecto_perfil_datos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_proyecto_perfil_datos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_pregunta_secreta]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_pregunta_secreta]
+Se resetea el cursor
+[DEBUG][toba] AP_TABLA: [apex_usuario]
+SQL de carga: 
+SELECT
+	basica.autentificacion, 
+	basica.clave, 
+	basica.email, 
+	basica.nombre, 
+	basica.parametro_a, 
+	basica.parametro_b, 
+	basica.parametro_c, 
+	basica.usuario, 
+	basica.vencimiento, 
+	basica.bloqueado, 
+	basica.forzar_cambio_pwd
+FROM
+	apex_usuario as basica
+WHERE
+	basica.usuario = 'jguerra'
+
+[DEBUG][toba] TABLA: [apex_usuario]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_usuario_proyecto]
+SQL de carga: 
+SELECT
+	apex_usuario_proyecto.proyecto, 
+	apex_usuario_proyecto.usuario, 
+	apex_usuario_proyecto.usuario_grupo_acc
+FROM
+	apex_usuario_proyecto as apex_usuario_proyecto
+WHERE
+	(apex_usuario_proyecto.usuario) IN (
+		SELECT
+			usuario
+		FROM
+			apex_usuario as basica
+		WHERE
+			basica.usuario = 'jguerra' )
+
+[DEBUG][toba] AP_TABLA: [apex_usuario_proyecto]
+Inicio carga de campos externos
+[DEBUG][toba] TABLA: [apex_usuario_proyecto]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_usuario_proyecto_perfil_datos]
+SQL de carga: 
+SELECT
+	apex_usuario_proyecto_perfil_datos.proyecto, 
+	apex_usuario_proyecto_perfil_datos.usuario_perfil_datos, 
+	apex_usuario_proyecto_perfil_datos.usuario
+FROM
+	apex_usuario_proyecto_perfil_datos as apex_usuario_proyecto_perfil_datos
+WHERE
+	(apex_usuario_proyecto_perfil_datos.usuario) IN (
+		SELECT
+			usuario
+		FROM
+			apex_usuario as basica
+		WHERE
+			basica.usuario = 'jguerra' )
+
+[DEBUG][toba] AP_TABLA: [apex_usuario_proyecto_perfil_datos]
+Inicio carga de campos externos
+[DEBUG][toba] TABLA: [apex_usuario_proyecto_perfil_datos]
+Carga de datos  FILAS: 1
+[DEBUG][toba] AP_TABLA: [apex_usuario_pregunta_secreta]
+SQL de carga: 
+SELECT
+	pregunta_secreta.cod_pregunta_secreta, 
+	pregunta_secreta.usuario, 
+	pregunta_secreta.pregunta, 
+	pregunta_secreta.respuesta, 
+	pregunta_secreta.activa
+FROM
+	apex_usuario_pregunta_secreta as pregunta_secreta
+WHERE
+	(pregunta_secreta.usuario) IN (
+		SELECT
+			usuario
+		FROM
+			apex_usuario as basica
+		WHERE
+			basica.usuario = 'jguerra' )
+
+[DEBUG][toba] AP_TABLA: [apex_usuario_pregunta_secreta]
+ FILAS: 0
+[DEBUG][toba] componente(2191): toba_datos_relacion: ***   Fin CARGAR (OK) *************************
+[INFO][toba] componente(2190): [ callback ] 'evt__seleccionar__salida' no fue atrapado
+[INFO][toba] componente(2190): [ callback ] 'evt__editar__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'editar'
+[INFO][toba] componente(2190): [ callback ] 'conf__editar' no fue atrapado
+[DEBUG][toba] componente(2188): Pantalla de servicio: 'usuario'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_basica.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2185):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2188): [ callback ] 'conf__basica'
+[INFO][toba] componente(2188): [ callback ] 'conf__usuario' no fue atrapado
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase /usuarios/form_ml_resp_secreta.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(33000065):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2188): [ callback ] 'conf__form_pregunta_secreta'
+[INFO][toba] componente(2190): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:35:23
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bfc882e337.83177928&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bfc6a469d2.90525484&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'editar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): Pantalla de eventos: 'usuario'
+[DEBUG][toba] componente(2188): [ inicializar_dependencias ]
+array (
+  0 => 'basica',
+  1 => 'form_pregunta_secreta',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_basica.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2185):  IMPLICITO: modificacion
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase /usuarios/form_ml_resp_secreta.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(33000065):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2188): [ registrar_evento ] 'modificacion' -> [ evt__basica__modificacion ]
+array (
+  0 => 
+  array (
+    'usuario' => 'jguerra',
+    'nombre' => 'Javier Guerra',
+    'clave' => 'xS34Io9gF2JD',
+    'autentificacion' => 'bcrypt',
+    'email' => NULL,
+    'bloqueado' => '0',
+    'parametro_a' => NULL,
+    'parametro_b' => NULL,
+    'parametro_c' => NULL,
+    'forzar_cambio_pwd' => '0',
+    'vencimiento' => NULL,
+  ),
+)
+[DEBUG][toba] componente(2188): [ registrar_evento ] 'modificacion' -> [ evt__form_pregunta_secreta__modificacion ]
+array (
+  0 => 
+  array (
+  ),
+)
+[INFO][toba] componente(2188): [ evento ]  El METODO [ evt__cambiar_tab_proyecto ] no existe - 'cambiar_tab_proyecto' no fue atrapado
+[INFO][toba] componente(2188): [ callback ] 'evt__usuario__salida' no fue atrapado
+[INFO][toba] componente(2188): [ callback ] 'evt__proyecto__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'editar'
+[INFO][toba] componente(2190): [ callback ] 'conf__editar' no fue atrapado
+[DEBUG][toba] componente(2188): Pantalla de servicio: 'proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__basica'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__cuadro_proyectos'
+[INFO][toba] componente(2190): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:35:25
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bfcaef2ad7.27198869&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bfc882e337.83177928&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'editar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): Pantalla de eventos: 'proyecto'
+[DEBUG][toba] componente(2188): [ inicializar_dependencias ]
+array (
+  0 => 'cuadro_proyectos',
+)
+[DEBUG][toba] componente(2188): [ registrar_evento ] 'seleccion' -> [ evt__cuadro_proyectos__seleccion ]
+array (
+  0 => 
+  array (
+    'proyecto' => 'comunidades',
+  ),
+)
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'editar'
+[INFO][toba] componente(2190): [ callback ] 'conf__editar' no fue atrapado
+[DEBUG][toba] componente(2188): Pantalla de servicio: 'proyecto'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_basica.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2185):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2188): [ callback ] 'conf__basica'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__cuadro_proyectos'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__form_proyectos'
+[INFO][toba] componente(2190): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:35:31
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bfcd2f12b5.64879272&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bfcaef2ad7.27198869&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'editar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): Pantalla de eventos: 'proyecto'
+[DEBUG][toba] componente(2188): [ inicializar_dependencias ]
+array (
+  0 => 'cuadro_proyectos',
+  1 => 'form_proyectos',
+)
+[DEBUG][toba] componente(2188): [ registrar_evento ] 'modificacion' -> [ evt__form_proyectos__modificacion ]
+array (
+  0 => 
+  array (
+    'proyecto' => 'comunidades',
+    'usuario_grupo_acc' => 
+    array (
+      0 => 'admin',
+    ),
+    'usuario_perfil_datos' => '8',
+  ),
+)
+[DEBUG][toba] TABLA: [apex_usuario_proyecto]
+Se resetea el cursor
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'editar'
+[INFO][toba] componente(2190): [ callback ] 'conf__editar' no fue atrapado
+[DEBUG][toba] componente(2188): Pantalla de servicio: 'proyecto'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_basica.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2185):  IMPLICITO: modificacion
+[DEBUG][toba] componente(2188): [ callback ] 'conf__basica'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__proyecto'
+[DEBUG][toba] componente(2188): [ callback ] 'conf__cuadro_proyectos'
+[INFO][toba] componente(2190): [ callback ] 'conf__editor' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:35:32
+Operacion: Mantenimiento de usuarios
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?ah=st5644bfd2f1fad1.21176312&ai=toba_usuarios||3432
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bfcd2f12b5.64879272&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_navegacion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): Pantalla de eventos: 'editar'
+[DEBUG][toba] [SECCION] Procesando eventos...
+[DEBUG][toba] componente(2190): [ inicializar_dependencias ]
+array (
+  0 => 'editor',
+)
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ci_editor.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2188): Pantalla de eventos: 'proyecto'
+[DEBUG][toba] componente(2188): [ inicializar_dependencias ]
+array (
+  0 => 'cuadro_proyectos',
+)
+[DEBUG][toba] componente(2190): [ evento ] 'guardar' -> [ evt__guardar ]
+[DEBUG][toba] ************ ABRIR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] AP_TABLA: [apex_usuario_proyecto]
+registro: 0 - DELETE FROM apex_usuario_proyecto WHERE proyecto = 'comunidades' AND usuario = 'jguerra' AND usuario_grupo_acc = 'admin';
+[DEBUG][toba] AP_TABLA: [apex_usuario_proyecto]
+registro: 1 - INSERT INTO apex_usuario_proyecto ( proyecto, usuario, usuario_grupo_acc ) 
+ VALUES ('comunidades', 'jguerra', 'admin');
+[DEBUG][toba] ************ CERRAR transaccion (toba_2_7@localhost) ****************
+[DEBUG][toba] TABLA: [apex_usuario]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_proyecto]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_proyecto]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_proyecto_perfil_datos]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_proyecto_perfil_datos]
+Se resetea el cursor
+[DEBUG][toba] TABLA: [apex_usuario_pregunta_secreta]
+RESET!!
+[DEBUG][toba] TABLA: [apex_usuario_pregunta_secreta]
+Se resetea el cursor
+[INFO][toba] componente(2190): [ callback ] 'evt__editar__salida' no fue atrapado
+[INFO][toba] componente(2190): [ callback ] 'evt__seleccionar__entrada' no fue atrapado
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2190): Pantalla de servicio: 'seleccionar'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__seleccionar'
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase usuarios/ei_form_filtro_usuarios.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(2190): [ callback ] 'conf__filtro'
+[DEBUG][toba] componente(2190): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:35:37
+Operacion: Autentificación de Usuarios
+Usuario: no_autentificado
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_usuarios/2.7/aplicacion.php?fs=1
+Referrer: http://localhost:8080/toba_usuarios/2.7/aplicacion.php?ah=st5644bfd2f1fad1.21176312&ai=toba_usuarios||3432
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto cambio de operación. Se limpia la memoria de la operacion
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase extension_toba/sesion.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba_usuarios] Pérdida de sesión: Finalizada por el usuario
+[DEBUG][toba] BORRAR segmento memoria PROYECTO: toba_usuarios
+[DEBUG][toba] BORRAR segmento memoria INSTANCIA: desarrollo
+[DEBUG][toba] BORRAR segmento memoria INSTALACION
+[DEBUG][toba_usuarios] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] Se cambia el ítem solicitado a =>array (
+  0 => 'toba_usuarios',
+  1 => '33000037',
+)
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_usuarios] PUNTO MONTAJE: se cargó la clase login/ci_login.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_usuarios/php
+[DEBUG][toba] componente(33000131): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(33000131): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(33000131): Pantalla de servicio: 'login'
+[DEBUG][toba] componente(33000131): [ callback ] 'conf__login'
+[DEBUG][toba] componente(33000131): [ callback ] 'conf__datos'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+

@@ -1958,3 +1958,552 @@ Argumentos: proyecto exportar -p comunidades
 [DEBUG][toba] Exportando local PROYECTO toba_usuarios
 [DEBUG][toba] Observaciones de sincronizacion: 
 
+-o-o-o-o-o-
+Fecha: 13-11-2015 10:44:48
+Version-PHP: 5.4.45
+Ruta: C:\Documents and Settings\Administrador
+Argumentos: proyecto exportar -p comunidades
+==========
+[DEBUG][toba] INSTALACION "C:\ServidorWeb\comunidades\instalacion"
+[DEBUG][toba] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba] INSTANCIA "desarrollo"
+[DEBUG][toba] Conectando a base 'toba_2_7'
+[DEBUG][toba] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba] PROYECTO "comunidades"
+[DEBUG][toba] PROYECTO "comunidades"
+[DEBUG][toba] Exportando PROYECTO comunidades
+[DEBUG][toba] TABLA  apex_proyecto  (1 reg.)
+[DEBUG][toba] TABLA  apex_estilo  (0 reg.)
+[DEBUG][toba] TABLA  apex_puntos_montaje  (1 reg.)
+[DEBUG][toba] TABLA  apex_fuente_datos  (1 reg.)
+[DEBUG][toba] TABLA  apex_fuente_datos_schemas  (1 reg.)
+[DEBUG][toba] TABLA  apex_elemento_formulario  (0 reg.)
+[DEBUG][toba] TABLA  apex_solicitud_obs_tipo  (0 reg.)
+[DEBUG][toba] TABLA  apex_pagina_tipo  (0 reg.)
+[DEBUG][toba] TABLA  apex_ptos_control  (0 reg.)
+[DEBUG][toba] TABLA  apex_ptos_control_param  (0 reg.)
+[DEBUG][toba] TABLA  apex_ptos_control_ctrl  (0 reg.)
+[DEBUG][toba] TABLA  apex_consulta_php  (0 reg.)
+[DEBUG][toba] TABLA  apex_perfil_datos_set_prueba  (0 reg.)
+[DEBUG][toba] TABLA  apex_item_zona  (0 reg.)
+[DEBUG][toba] TABLA  apex_clase  (0 reg.)
+[DEBUG][toba] TABLA  apex_clase_relacion  (0 reg.)
+[DEBUG][toba] TABLA  apex_conversion  (0 reg.)
+[DEBUG][toba] TABLA  apex_msg  (0 reg.)
+[DEBUG][toba] TABLA  apex_item_msg  (0 reg.)
+[DEBUG][toba] TABLA  apex_objeto_msg  (0 reg.)
+[DEBUG][toba] TABLA  apex_nota  (0 reg.)
+[DEBUG][toba] TABLA  apex_item_nota  (0 reg.)
+[DEBUG][toba] TABLA  apex_objeto_nota  (0 reg.)
+[DEBUG][toba] TABLA  apex_relacion_tablas  (0 reg.)
+[DEBUG][toba] TABLA  apex_dimension  (1 reg.)
+[DEBUG][toba] TABLA  apex_dimension_gatillo  (10 reg.)
+[DEBUG][toba] TABLA  apex_gadgets  (0 reg.)
+[DEBUG][toba] TABLA  apex_objeto_ei_filtro_tipo_col  (0 reg.)
+[DEBUG][toba] TABLA  apex_molde_opciones_generacion  (0 reg.)
+[DEBUG][toba] TABLA  apex_permiso  (0 reg.)
+[DEBUG][toba] TABLA  apex_servicio_web  (0 reg.)
+[DEBUG][toba] TABLA  apex_servicio_web_param  (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  26 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  27 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  28 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  29 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  30 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  31 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  32 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  33 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  34 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  35 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  36 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  37 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  38 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  39 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  40 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  41 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  42 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2443 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2447 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2452 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2457 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2467 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2471 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2477 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2482 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2487 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2493 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2500 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2505 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2512 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2518 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2525 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2530 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2536 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2541 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2439 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2440 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2441 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2442 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2449 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2453 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2458 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2468 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2472 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2473 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2478 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2483 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2488 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2489 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2496 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2497 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2501 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2502 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2506 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2507 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2513 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2514 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2519 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2520 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2526 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2527 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2531 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2532 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2538 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2542 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2543 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario_ml  --  2516 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario_ml  --  2522 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario_ml  --  2534 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2444 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2450 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2454 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2459 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2469 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2474 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2479 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2484 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2490 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2498 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2503 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2508 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2509 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2515 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2521 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2528 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2533 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2539 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2544 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2446 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2451 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2456 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2466 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2470 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2476 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2481 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2486 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2492 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2499 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2504 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2511 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2517 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2524 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2529 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2535 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2540 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2445 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2448 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2455 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2460 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2465 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2475 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2480 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2485 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2491 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2494 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2495 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2510 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2523 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  1 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  2 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3492 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3493 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3494 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3495 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3496 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3497 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3498 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3499 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3500 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3501 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3502 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3503 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3504 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3505 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3506 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3507 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3508 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3509 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3510 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3511 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3512 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3513 (0 reg.)
+[DEBUG][toba] PERMISO  admin
+[DEBUG][toba] TABLA  apex_usuario_grupo_acc  (1 reg.)
+[DEBUG][toba] TABLA  apex_usuario_grupo_acc_miembros  (0 reg.)
+[DEBUG][toba] TABLA  apex_usuario_grupo_acc_item  (22 reg.)
+[DEBUG][toba] TABLA  apex_permiso_grupo_acc  (0 reg.)
+[DEBUG][toba] TABLA  apex_grupo_acc_restriccion_funcional  (0 reg.)
+[DEBUG][toba] TABLA  apex_usuario_perfil_datos  (2 reg.)
+[DEBUG][toba] TABLA  apex_usuario_perfil_datos_dims  (2 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_cols  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_ef  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_ei  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_evt  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_filtro_cols  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_pantalla  (0 reg.)
+[DEBUG][toba] TABLA  apex_menu  (0 reg.)
+[DEBUG][toba] TABLA  apex_menu_operaciones  (0 reg.)
+[DEBUG][toba] Actualizado el checksum del proyecto comunidades
+[DEBUG][toba] Tabla GLOBAL  --  apex_revision (1 reg.)
+[DEBUG][toba] Tabla GLOBAL  --  apex_instancia (1 reg.)
+[DEBUG][toba] Tabla GLOBAL  --  apex_checksum_proyectos (1 reg.)
+[DEBUG][toba] Tabla USUARIOS  --  apex_usuario (2 reg.)
+[DEBUG][toba] Tabla USUARIOS  --  apex_usuario_pregunta_secreta (0 reg.)
+[DEBUG][toba] Tabla USUARIOS  --  apex_usuario_pwd_usados (0 reg.)
+[DEBUG][toba] Exportando local PROYECTO comunidades
+[DEBUG][toba] Exportando local PROYECTO toba_editor
+[DEBUG][toba] Exportando local PROYECTO toba_referencia
+[DEBUG][toba] Exportando local PROYECTO toba_usuarios
+[DEBUG][toba] Observaciones de sincronizacion: 
+
+-o-o-o-o-o-
+Fecha: 13-11-2015 13:03:39
+Version-PHP: 5.4.45
+Ruta: C:\Documents and Settings\Administrador
+Argumentos: proyecto exportar -p tehuelche
+==========
+[DEBUG][toba] INSTALACION "C:\ServidorWeb\comunidades\instalacion"
+[DEBUG][toba] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba] INSTANCIA "desarrollo"
+[ERROR][toba] toba_error: PROYECTO: El proyecto 'tehuelche' es invalido. (la carpeta 'C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/tehuelche' no existe) 
+
+[TRAZA]exception 'toba_error' with message 'PROYECTO: El proyecto 'tehuelche' es invalido. (la carpeta 'C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/tehuelche' no existe)' in C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\modelo\toba_modelo_proyecto.php:43
+Stack trace:
+#0 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\modelo\toba_modelo_catalogo.php(73): toba_modelo_proyecto->__construct(Object(toba_modelo_instancia), 'tehuelche')
+#1 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\consola\comandos\comando_toba.php(66): toba_modelo_catalogo->get_proyecto('desarrollo', 'tehuelche', Object(consola))
+#2 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\consola\comandos\comando_proyecto.php(414): comando_toba->get_proyecto()
+#3 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\consola\comandos\comando_proyecto.php(91): comando_proyecto->opcion__exportar(NULL)
+#4 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\consola\comando.php(54): comando_proyecto->ejecutar_opcion('opcion__exporta...', NULL)
+#5 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\consola\consola.php(74): comando->procesar()
+#6 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\consola\consola.php(51): consola->invocar_comando('proyecto', Array)
+#7 C:\ServidorWeb\comunidades\vendor\siu-toba\framework\php\consola\run.php(32): consola->run(Array)
+#8 {main}
+
+-o-o-o-o-o-
+Fecha: 13-11-2015 13:03:50
+Version-PHP: 5.4.45
+Ruta: C:\Documents and Settings\Administrador
+Argumentos: proyecto exportar -p comunidades
+==========
+[DEBUG][toba] INSTALACION "C:\ServidorWeb\comunidades\instalacion"
+[DEBUG][toba] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba] INSTANCIA "desarrollo"
+[DEBUG][toba] Conectando a base 'toba_2_7'
+[DEBUG][toba] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba] PROYECTO "comunidades"
+[DEBUG][toba] PROYECTO "comunidades"
+[DEBUG][toba] Exportando PROYECTO comunidades
+[DEBUG][toba] TABLA  apex_proyecto  (1 reg.)
+[DEBUG][toba] TABLA  apex_estilo  (0 reg.)
+[DEBUG][toba] TABLA  apex_puntos_montaje  (1 reg.)
+[DEBUG][toba] TABLA  apex_fuente_datos  (1 reg.)
+[DEBUG][toba] TABLA  apex_fuente_datos_schemas  (1 reg.)
+[DEBUG][toba] TABLA  apex_elemento_formulario  (0 reg.)
+[DEBUG][toba] TABLA  apex_solicitud_obs_tipo  (0 reg.)
+[DEBUG][toba] TABLA  apex_pagina_tipo  (0 reg.)
+[DEBUG][toba] TABLA  apex_ptos_control  (0 reg.)
+[DEBUG][toba] TABLA  apex_ptos_control_param  (0 reg.)
+[DEBUG][toba] TABLA  apex_ptos_control_ctrl  (0 reg.)
+[DEBUG][toba] TABLA  apex_consulta_php  (0 reg.)
+[DEBUG][toba] TABLA  apex_perfil_datos_set_prueba  (0 reg.)
+[DEBUG][toba] TABLA  apex_item_zona  (0 reg.)
+[DEBUG][toba] TABLA  apex_clase  (0 reg.)
+[DEBUG][toba] TABLA  apex_clase_relacion  (0 reg.)
+[DEBUG][toba] TABLA  apex_conversion  (0 reg.)
+[DEBUG][toba] TABLA  apex_msg  (0 reg.)
+[DEBUG][toba] TABLA  apex_item_msg  (0 reg.)
+[DEBUG][toba] TABLA  apex_objeto_msg  (0 reg.)
+[DEBUG][toba] TABLA  apex_nota  (0 reg.)
+[DEBUG][toba] TABLA  apex_item_nota  (0 reg.)
+[DEBUG][toba] TABLA  apex_objeto_nota  (0 reg.)
+[DEBUG][toba] TABLA  apex_relacion_tablas  (0 reg.)
+[DEBUG][toba] TABLA  apex_dimension  (1 reg.)
+[DEBUG][toba] TABLA  apex_dimension_gatillo  (10 reg.)
+[DEBUG][toba] TABLA  apex_gadgets  (0 reg.)
+[DEBUG][toba] TABLA  apex_objeto_ei_filtro_tipo_col  (0 reg.)
+[DEBUG][toba] TABLA  apex_molde_opciones_generacion  (0 reg.)
+[DEBUG][toba] TABLA  apex_permiso  (0 reg.)
+[DEBUG][toba] TABLA  apex_servicio_web  (0 reg.)
+[DEBUG][toba] TABLA  apex_servicio_web_param  (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  26 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  27 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  28 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  29 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  30 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  31 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  32 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  33 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  34 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  35 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  36 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  37 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  38 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  39 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  40 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_asistente_abms  --  41 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2443 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2447 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2452 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2457 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2467 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2471 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2477 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2482 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2487 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2493 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2500 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2505 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2512 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2518 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2525 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2530 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2536 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_cuadro  --  2541 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2439 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2440 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2441 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2442 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2449 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2453 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2458 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2468 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2472 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2473 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2478 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2483 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2488 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2489 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2496 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2497 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2501 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2502 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2506 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2507 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2513 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2514 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2519 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2520 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2526 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2527 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2532 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2538 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2542 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario  --  2543 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario_ml  --  2516 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario_ml  --  2522 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ei_formulario_ml  --  2534 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2444 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2450 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2454 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2459 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2469 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2474 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2479 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2484 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2490 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2498 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2503 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2508 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2509 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2515 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2521 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2528 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2533 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2539 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_ci  --  2544 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2446 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2451 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2456 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2466 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2470 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2476 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2481 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2486 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2492 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2499 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2504 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2511 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2517 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2524 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2529 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2535 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_relacion  --  2540 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2445 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2448 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2455 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2460 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2465 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2475 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2480 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2485 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2491 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2494 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2495 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2510 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_datos_tabla  --  2523 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  1 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  2 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3492 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3493 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3494 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3495 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3496 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3497 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3498 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3499 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3500 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3501 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3502 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3503 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3504 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3505 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3506 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3507 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3508 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3509 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3510 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3511 (0 reg.)
+[DEBUG][toba] COMPONENTE toba_item  --  3512 (0 reg.)
+[DEBUG][toba] PERMISO  admin
+[DEBUG][toba] TABLA  apex_usuario_grupo_acc  (1 reg.)
+[DEBUG][toba] TABLA  apex_usuario_grupo_acc_miembros  (0 reg.)
+[DEBUG][toba] TABLA  apex_usuario_grupo_acc_item  (21 reg.)
+[DEBUG][toba] TABLA  apex_permiso_grupo_acc  (0 reg.)
+[DEBUG][toba] TABLA  apex_grupo_acc_restriccion_funcional  (0 reg.)
+[DEBUG][toba] TABLA  apex_usuario_perfil_datos  (2 reg.)
+[DEBUG][toba] TABLA  apex_usuario_perfil_datos_dims  (2 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_cols  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_ef  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_ei  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_evt  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_filtro_cols  (0 reg.)
+[DEBUG][toba] TABLA  apex_restriccion_funcional_pantalla  (0 reg.)
+[DEBUG][toba] TABLA  apex_menu  (0 reg.)
+[DEBUG][toba] TABLA  apex_menu_operaciones  (0 reg.)
+[INFO][toba] Sincronizacion: Eliminando archivo C:\ServidorWeb\comunidades\src/metadatos/componentes/toba_item/dump_3513.sql
+[INFO][toba] Sincronizacion: Eliminando archivo C:\ServidorWeb\comunidades\src/metadatos/componentes/toba_ei_formulario/dump_2531.sql
+[INFO][toba] Sincronizacion: Eliminando archivo C:\ServidorWeb\comunidades\src/metadatos/componentes/toba_asistente_abms/dump_42.sql
+[DEBUG][toba] Actualizado el checksum del proyecto comunidades
+[DEBUG][toba] Tabla GLOBAL  --  apex_revision (1 reg.)
+[DEBUG][toba] Tabla GLOBAL  --  apex_instancia (1 reg.)
+[DEBUG][toba] Tabla GLOBAL  --  apex_checksum_proyectos (1 reg.)
+[DEBUG][toba] Tabla USUARIOS  --  apex_usuario (2 reg.)
+[DEBUG][toba] Tabla USUARIOS  --  apex_usuario_pregunta_secreta (0 reg.)
+[DEBUG][toba] Tabla USUARIOS  --  apex_usuario_pwd_usados (0 reg.)
+[DEBUG][toba] Exportando local PROYECTO comunidades
+[DEBUG][toba] Exportando local PROYECTO toba_editor
+[DEBUG][toba] Exportando local PROYECTO toba_referencia
+[DEBUG][toba] Exportando local PROYECTO toba_usuarios
+[DEBUG][toba] Observaciones de sincronizacion: 
+

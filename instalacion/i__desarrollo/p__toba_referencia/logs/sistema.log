@@ -2783,3 +2783,391 @@ Host: 10.0.2.2
 [DEBUG][toba_referencia] SQL con perfil de datos: SELECT id, nombre, fecha_nac FROM ref_persona  ORDER BY nombre
 [DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
 
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:41:34
+Operacion: Inicio
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_referencia/2.7/?ai=toba_referencia&tcm=previsualizacion&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st5644c13ce37093.37511405&ai=toba_editor||1000241
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][toba] Cargando USUARIO 'toba' en el proyecto 'toba_referencia'
+[DEBUG][toba] Crear SESION '24' en el proyecto 'toba_referencia'
+[DEBUG][toba] Se creo la SESION [usuario: toba ]
+[DEBUG][toba_referencia] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_referencia] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_referencia] INSTANCIA "desarrollo"
+[DEBUG][toba_referencia] Conectando a base 'toba_2_7'
+[DEBUG][toba_referencia] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_referencia] PROYECTO "toba_referencia"
+[DEBUG][toba_referencia] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] Se cambia el ítem solicitado a =>array (
+  0 => 'toba_referencia',
+  1 => '3294',
+)
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][toba_referencia] PROYECTO "toba_referencia"
+[DEBUG][toba_referencia] (
+				SELECT 	amo.padre,
+							amo.carpeta,
+							amo.proyecto,
+							amo.item,
+							amo.descripcion as nombre,
+							ai.orden as 		orden,
+							ai.imagen,
+							ai.imagen_recurso_origen,
+							amo.padre = '1000218' as es_primer_nivel
+				   FROM 
+							apex_usuario_grupo_acc auga
+						JOIN apex_menu_operaciones amo ON (auga.menu_usuario = amo.menu_id AND auga.proyecto = amo.proyecto)
+						JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc AND augai.item = amo.item)
+						JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				  WHERE (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(amo.proyecto = 'toba_referencia')
+					AND auga.menu_usuario IS NOT NULL
+			UNION
+				SELECT 	ai.padre,
+						ai.carpeta,
+						ai.proyecto,
+						ai.item,
+						ai.nombre as nombre,
+						ai.orden as 		orden,
+						ai.imagen,
+						ai.imagen_recurso_origen,
+						ai.padre = '1000218' as es_primer_nivel
+				FROM 
+						apex_usuario_grupo_acc auga
+					JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc)
+					JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				WHERE auga.menu_usuario is null
+					AND (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(ai.proyecto = 'toba_referencia')
+			) ORDER BY 1, 6
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[DEBUG][toba] componente(30000025): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(30000025): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(30000025): Pantalla de servicio: 'pant_inicial'
+[INFO][toba] componente(30000025): [ callback ] 'conf__pant_inicial' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:41:41
+Operacion: ef_popup
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_referencia/2.7/aplicacion.php?tm=1&tcm=previsualizacion&ai=toba_referencia||1000048
+Referrer: http://localhost:8080/toba_referencia/2.7/?ai=toba_referencia&tcm=previsualizacion&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][toba_referencia] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_referencia] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_referencia] INSTANCIA "desarrollo"
+[DEBUG][toba_referencia] Conectando a base 'toba_2_7'
+[DEBUG][toba_referencia] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_referencia] PROYECTO "toba_referencia"
+[DEBUG][toba_referencia] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_referencia] PROYECTO "toba_referencia"
+[DEBUG][toba_referencia] (
+				SELECT 	amo.padre,
+							amo.carpeta,
+							amo.proyecto,
+							amo.item,
+							amo.descripcion as nombre,
+							ai.orden as 		orden,
+							ai.imagen,
+							ai.imagen_recurso_origen,
+							amo.padre = '1000218' as es_primer_nivel
+				   FROM 
+							apex_usuario_grupo_acc auga
+						JOIN apex_menu_operaciones amo ON (auga.menu_usuario = amo.menu_id AND auga.proyecto = amo.proyecto)
+						JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc AND augai.item = amo.item)
+						JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				  WHERE (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(amo.proyecto = 'toba_referencia')
+					AND auga.menu_usuario IS NOT NULL
+			UNION
+				SELECT 	ai.padre,
+						ai.carpeta,
+						ai.proyecto,
+						ai.item,
+						ai.nombre as nombre,
+						ai.orden as 		orden,
+						ai.imagen,
+						ai.imagen_recurso_origen,
+						ai.padre = '1000218' as es_primer_nivel
+				FROM 
+						apex_usuario_grupo_acc auga
+					JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc)
+					JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				WHERE auga.menu_usuario is null
+					AND (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(ai.proyecto = 'toba_referencia')
+			) ORDER BY 1, 6
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_referencia] PUNTO MONTAJE: se cargó la clase componentes/efs/ef_popup/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_referencia/php
+[DEBUG][toba] componente(1000177): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(1000177): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1000177): Pantalla de servicio: 'formulario'
+[INFO][toba] componente(1000177): [ callback ] 'conf__formulario' no fue atrapado
+[INFO][toba_referencia] PUNTO MONTAJE: se cargó la clase componentes/efs/ef_popup/form_ef_popup.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_referencia/php
+[DEBUG][toba] componente(1000175):  IMPLICITO: modificacion
+[DEBUG][toba] componente(1000177): [ callback ] 'conf__form'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 13:41:44
+Operacion: Buscador de personas
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_referencia/2.7/aplicacion.php?ah=st5644c144ae04e7.69382832&ai=toba_referencia||3273&tcm=popup&tm=1&popup=&ef_popup_valor=&ef_popup=ef_form_1000175_formpopup&parametro_nuevo=valor
+Referrer: http://localhost:8080/toba_referencia/2.7/aplicacion.php?tm=1&tcm=previsualizacion&ai=toba_referencia||1000048
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][toba_referencia] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_referencia] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_referencia] INSTANCIA "desarrollo"
+[DEBUG][toba_referencia] Conectando a base 'toba_2_7'
+[DEBUG][toba_referencia] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_referencia] PROYECTO "toba_referencia"
+[DEBUG][toba_referencia] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba_referencia] PROYECTO "toba_referencia"
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][toba_referencia] PUNTO MONTAJE: se cargó la clase componentes/item_popup/ci_principal.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\vendor\siu-toba\framework/proyectos/toba_referencia/php
+[DEBUG][toba] componente(1762): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(1762): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(1762): Pantalla de servicio: 'listado'
+[INFO][toba] componente(1762): [ callback ] 'conf__listado' no fue atrapado
+[DEBUG][toba] componente(1762): [ callback ] 'conf__cuadro'
+[DEBUG][toba_referencia] Inicializando perfil de datos para el proyecto toba_referencia
+[DEBUG][toba_referencia] SQL con perfil de datos: SELECT id, nombre, fecha_nac FROM ref_persona  ORDER BY nombre
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 12-11-2015 14:00:30
+Operacion: Inicio
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /toba_referencia/2.7/?ai=toba_referencia&tcm=previsualizacion&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st5644c54ab59d68.88003335&ai=toba_editor||1000241
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][toba] Cargando USUARIO 'toba' en el proyecto 'toba_referencia'
+[DEBUG][toba] Crear SESION '27' en el proyecto 'toba_referencia'
+[DEBUG][toba] Se creo la SESION [usuario: toba ]
+[DEBUG][toba_referencia] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][toba_referencia] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][toba_referencia] INSTANCIA "desarrollo"
+[DEBUG][toba_referencia] Conectando a base 'toba_2_7'
+[DEBUG][toba_referencia] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][toba_referencia] PROYECTO "toba_referencia"
+[DEBUG][toba_referencia] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] Se cambia el ítem solicitado a =>array (
+  0 => 'toba_referencia',
+  1 => '3294',
+)
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][toba_referencia] PROYECTO "toba_referencia"
+[DEBUG][toba_referencia] (
+				SELECT 	amo.padre,
+							amo.carpeta,
+							amo.proyecto,
+							amo.item,
+							amo.descripcion as nombre,
+							ai.orden as 		orden,
+							ai.imagen,
+							ai.imagen_recurso_origen,
+							amo.padre = '1000218' as es_primer_nivel
+				   FROM 
+							apex_usuario_grupo_acc auga
+						JOIN apex_menu_operaciones amo ON (auga.menu_usuario = amo.menu_id AND auga.proyecto = amo.proyecto)
+						JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc AND augai.item = amo.item)
+						JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				  WHERE (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(amo.proyecto = 'toba_referencia')
+					AND auga.menu_usuario IS NOT NULL
+			UNION
+				SELECT 	ai.padre,
+						ai.carpeta,
+						ai.proyecto,
+						ai.item,
+						ai.nombre as nombre,
+						ai.orden as 		orden,
+						ai.imagen,
+						ai.imagen_recurso_origen,
+						ai.padre = '1000218' as es_primer_nivel
+				FROM 
+						apex_usuario_grupo_acc auga
+					JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc)
+					JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				WHERE auga.menu_usuario is null
+					AND (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(ai.proyecto = 'toba_referencia')
+			) ORDER BY 1, 6
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[DEBUG][toba] componente(30000025): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(30000025): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(30000025): Pantalla de servicio: 'pant_inicial'
+[INFO][toba] componente(30000025): [ callback ] 'conf__pant_inicial' no fue atrapado
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+

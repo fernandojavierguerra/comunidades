@@ -11,4 +11,11 @@ INSERT INTO apex_usuario_perfil_datos (proyecto, usuario_perfil_datos, nombre, d
 	'Exploradores', --descripcion
 	NULL  --listar
 );
+INSERT INTO apex_usuario_perfil_datos (proyecto, usuario_perfil_datos, nombre, descripcion, listar) VALUES (
+	'comunidades', --proyecto
+	'9', --usuario_perfil_datos
+	'CMS', --nombre
+	'CMS', --descripcion
+	NULL  --listar
+);
 --- FIN Grupo de desarrollo 0

@@ -83,6 +83,13 @@ class ci_personas extends toba_ci
 		$this->set_pantalla('pant_edicion');
 	}
 
+	function get_persona_nombre($id)
+	{
+		$res = $this->dep('datos')->tabla('personas')->get_persona_nombre($id);
+		print_r($res);
+		return $res['persona_nombre'];
+	}
+	
 	//---- Formulario -------------------------------------------------------------------
 
 	/*

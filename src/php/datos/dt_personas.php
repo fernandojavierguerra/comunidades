@@ -3,12 +3,21 @@ class dt_personas extends toba_datos_tabla
 {
 	function get_persona_nombre($id_persona)
 	{
+		/*
 		//print_r($id_persona);
 		
 		$sql = "SELECT apellido ||', '|| nombres as persona_nombre FROM personas WHERE id_persona = {$id_persona}";
 		//Filtrar por perfil de datos
 		$sql = toba::perfil_de_datos()->filtrar($sql);
 		return toba::db('comunidades')->consultar($sql);
+		*/
+		$sql = "SELECT 
+			t_p.apellido||', '||t_p.nombres as apellido_nombres
+		FROM
+			personas as t_p  WHERE id_persona = {$id_persona}";
+		
+		$res = toba::db('comunidades')->consultar($sql);
+		return $res[0]['apellido_nombres'];
 		
 	}
 	
@@ -71,6 +80,40 @@ class dt_personas extends toba_datos_tabla
 		return toba::db('comunidades')->consultar($sql);
 	}
 
+	function get_listado_familiar($filtro=array())
+	{
+		$where = array();
+		if (isset($filtro['nombres'])) {
+			$where[] = "nombres ILIKE ".quote("%{$filtro['nombres']}%");
+		}
+		if (isset($filtro['apellido'])) {
+			$where[] = "apellido ILIKE ".quote("%{$filtro['apellido']}%");
+		}
+		if (isset($filtro['nrodocumento'])) {
+			$where[] = "nrodocumento ILIKE ".quote("%{$filtro['nrodocumento']}%");
+		}
+		$sql = "SELECT
+			t_p.id_persona as id_familiar,
+			t_c.comunidad as id_comunidad_nombre,
+			t_p.nombres,
+			t_p.apellido,
+			t_p.apellido ||', '|| t_p.nombres as apellido_nombre,
+			t_p.nrodocumento,
+			t_b.barrio as id_barrio_nombre,
+			t_t.tipodocumento as id_tipodocumento_nombre
+
+		FROM
+			personas as t_p    LEFT OUTER JOIN barrios as t_b ON (t_p.id_barrio = t_b.id_barrio)
+			LEFT OUTER JOIN tiposdocumento as t_t ON (t_p.id_tipodocumento = t_t.id_tipodocumento),
+			comunidades as t_c
+		WHERE
+				t_p.id_comunidad = t_c.id_comunidad
+		ORDER BY nombres";
+		if (count($where) > 0) {
+			$sql = sql_concatenar_where($sql, $where);
+		}
+		return toba::db('comunidades')->consultar($sql);
+	}
 	
 	function get_listado_personas_grupo($filtro=array())
 	{

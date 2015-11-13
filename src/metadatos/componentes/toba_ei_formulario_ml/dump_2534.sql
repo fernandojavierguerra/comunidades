@@ -119,7 +119,7 @@ INSERT INTO apex_objeto_ut_formulario (objeto_ut_formulario_proyecto, objeto_ut_
 	'0', --filas_numerar
 	NULL, --ev_seleccion
 	NULL, --alto
-	'EVENTOS', --analisis_cambios
+	'LINEA', --analisis_cambios
 	NULL, --no_imprimir_efs_sin_estado
 	NULL, --resaltar_efs_con_estado
 	NULL, --template
@@ -376,7 +376,7 @@ INSERT INTO apex_objeto_ei_formulario_ef (objeto_ei_formulario_fila, objeto_ei_f
 	'2534', --objeto_ei_formulario
 	'comunidades', --objeto_ei_formulario_proyecto
 	'id_familiar', --identificador
-	'ef_editable', --elemento_formulario
+	'ef_popup', --elemento_formulario
 	'id_familiar', --columnas
 	'0', --obligatorio
 	'0', --oculto_relaja_obligatorio
@@ -393,11 +393,11 @@ INSERT INTO apex_objeto_ei_formulario_ef (objeto_ei_formulario_fila, objeto_ei_f
 	'0', --deshabilitar_rest_func
 	NULL, --estado_defecto
 	'0', --solo_lectura
-	'0', --solo_lectura_modificacion
-	NULL, --carga_metodo
+	'1', --solo_lectura_modificacion
+	'get_descripciones', --carga_metodo
 	NULL, --carga_clase
 	NULL, --carga_include
-	NULL, --carga_dt
+	'2494', --carga_dt
 	NULL, --carga_consulta_php
 	NULL, --carga_sql
 	'comunidades', --carga_fuente
@@ -424,9 +424,9 @@ INSERT INTO apex_objeto_ei_formulario_ef (objeto_ei_formulario_fila, objeto_ei_f
 	NULL, --edit_expreg
 	'3509', --popup_item
 	'comunidades', --popup_proyecto
-	'1', --popup_editable
+	'0', --popup_editable
 	NULL, --popup_ventana
-	NULL, --popup_carga_desc_metodo
+	'get_persona_nombre', --popup_carga_desc_metodo
 	NULL, --popup_carga_desc_clase
 	NULL, --popup_carga_desc_include
 	'1', --popup_puede_borrar_estado

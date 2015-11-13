@@ -1,3 +1,3 @@
 INSERT INTO apex_revision (revision, creacion) VALUES ('DESCONOCIDA', '2015-11-04 12:54:30');
 INSERT INTO apex_instancia (instancia, version, institucion, observaciones, administrador_1, administrador_2, administrador_3, creacion) VALUES ('desarrollo', '2.7.2', NULL, NULL, NULL, NULL, NULL, '2015-11-04 12:54:30');
-INSERT INTO apex_checksum_proyectos (checksum, proyecto) ( SELECT '8c7ef964ac7d2d08e8d8f4eb4442630579d4fc0c61a81cbd1ca2b558a695c388', 'comunidades' WHERE NOT EXISTS ( SELECT 1  FROM apex_checksum_proyectos WHERE  checksum = '8c7ef964ac7d2d08e8d8f4eb4442630579d4fc0c61a81cbd1ca2b558a695c388'  AND  proyecto = 'comunidades' ));
+INSERT INTO apex_checksum_proyectos (checksum, proyecto) ( SELECT 'bbe78721ff02e9a2359da88bc3f53811408efe2896f1014cc71e1dfc00f54f9a', 'comunidades' WHERE NOT EXISTS ( SELECT 1  FROM apex_checksum_proyectos WHERE  checksum = 'bbe78721ff02e9a2359da88bc3f53811408efe2896f1014cc71e1dfc00f54f9a'  AND  proyecto = 'comunidades' ));

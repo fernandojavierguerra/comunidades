@@ -59,6 +59,7 @@ class ci_edicion extends comunidades_ci
 
 	function conf__form_familiares(comunidades_ei_formulario_ml $form_ml)
 	{
+		
 		$form_ml->set_datos($this->get_relacion()->tabla('familiares')->get_filas(null, true));
 	}
 
