@@ -21,15 +21,25 @@ class dt_tiposgrupo extends toba_datos_tabla
 
 
 
-		function get_descripciones()
-		{
-			$sql = "SELECT id_tipogrupo, tipogrupo FROM tiposgrupo ORDER BY tipogrupo";
-			//Filtrar por perfil de datos
-			$sql = toba::perfil_de_datos()->filtrar($sql);
+	function get_descripciones()
+	{
+		$sql = "SELECT id_tipogrupo, tipogrupo FROM tiposgrupo ORDER BY tipogrupo";
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
 
-			return toba::db('comunidades')->consultar($sql);
-		}
+		return toba::db('comunidades')->consultar($sql);
+	}
 
+	function get_desc_comunidad($id_comunidad)
+	{
+		$sql = "SELECT id_tipogrupo, tipogrupo FROM tiposgrupo 
+				WHERE id_comunidad = {$id_comunidad}
+				ORDER BY tipogrupo";
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
+
+		return toba::db('comunidades')->consultar($sql);
+	}
 
 
 

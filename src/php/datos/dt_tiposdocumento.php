@@ -22,6 +22,8 @@ class dt_tiposdocumento extends toba_datos_tabla
 	function get_descripciones()
 	{
 		$sql = "SELECT id_tipodocumento, tipodocumento FROM tiposdocumento ORDER BY tipodocumento";
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
 		return toba::db('comunidades')->consultar($sql);
 	}
 

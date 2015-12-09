@@ -16,6 +16,8 @@ class dt_personas extends toba_datos_tabla
 		FROM
 			personas as t_p  WHERE id_persona = {$id_persona}";
 		
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
 		$res = toba::db('comunidades')->consultar($sql);
 		return $res[0]['apellido_nombres'];
 		
@@ -40,6 +42,9 @@ class dt_personas extends toba_datos_tabla
 	function get_listado($filtro=array())
 	{
 		$where = array();
+		if (isset($filtro['id_comunidad'])) {
+			$where[] = "t_p.id_comunidad = ".quote("{$filtro['id_comunidad']}");
+		}
 		if (isset($filtro['nombres'])) {
 			$where[] = "nombres ILIKE ".quote("%{$filtro['nombres']}%");
 		}
@@ -77,6 +82,8 @@ class dt_personas extends toba_datos_tabla
 		if (count($where) > 0) {
 			$sql = sql_concatenar_where($sql, $where);
 		}
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
 		return toba::db('comunidades')->consultar($sql);
 	}
 
@@ -112,6 +119,8 @@ class dt_personas extends toba_datos_tabla
 		if (count($where) > 0) {
 			$sql = sql_concatenar_where($sql, $where);
 		}
+		//Filtrar por perfil de datos
+		$sql = toba::perfil_de_datos()->filtrar($sql);
 		return toba::db('comunidades')->consultar($sql);
 	}
 	
