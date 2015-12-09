@@ -1032,3 +1032,215 @@ Host: 10.0.2.2
 		ORDER BY templo
 [DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
 
+-o-o-o-o-o-
+Fecha: 09-12-2015 18:01:51
+Operacion: Inicio
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /comunidades/1.0/?ai=comunidades&tcm=previsualizacion&tm=1
+Referrer: http://localhost:8080/toba_editor/2.7/aplicacion.php?ah=st566896a3904df4.71838138&ai=toba_editor||1000241
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][toba] Cargando USUARIO 'toba' en el proyecto 'comunidades'
+[DEBUG][toba] Crear SESION '47' en el proyecto 'comunidades'
+[DEBUG][toba] Se creo la SESION [usuario: toba ]
+[DEBUG][comunidades] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][comunidades] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][comunidades] INSTANCIA "desarrollo"
+[DEBUG][comunidades] Conectando a base 'toba_2_7'
+[DEBUG][comunidades] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][comunidades] PROYECTO "comunidades"
+[DEBUG][comunidades] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][toba] Se cambia el ítem solicitado a =>array (
+  0 => 'comunidades',
+  1 => '2',
+)
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][comunidades] PROYECTO "comunidades"
+[DEBUG][comunidades] (
+				SELECT 	amo.padre,
+							amo.carpeta,
+							amo.proyecto,
+							amo.item,
+							amo.descripcion as nombre,
+							ai.orden as 		orden,
+							ai.imagen,
+							ai.imagen_recurso_origen,
+							amo.padre = '1' as es_primer_nivel
+				   FROM 
+							apex_usuario_grupo_acc auga
+						JOIN apex_menu_operaciones amo ON (auga.menu_usuario = amo.menu_id AND auga.proyecto = amo.proyecto)
+						JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc AND augai.item = amo.item)
+						JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				  WHERE (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(amo.proyecto = 'comunidades')
+					AND auga.menu_usuario IS NOT NULL
+			UNION
+				SELECT 	ai.padre,
+						ai.carpeta,
+						ai.proyecto,
+						ai.item,
+						ai.nombre as nombre,
+						ai.orden as 		orden,
+						ai.imagen,
+						ai.imagen_recurso_origen,
+						ai.padre = '1' as es_primer_nivel
+				FROM 
+						apex_usuario_grupo_acc auga
+					JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc)
+					JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				WHERE auga.menu_usuario is null
+					AND (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(ai.proyecto = 'comunidades')
+			) ORDER BY 1, 6
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+
+-o-o-o-o-o-
+Fecha: 09-12-2015 18:01:54
+Operacion: Personas
+Usuario: toba
+Version-PHP: 5.4.45
+Servidor: localhost
+URI: /comunidades/1.0/aplicacion.php?tm=1&tcm=previsualizacion&ai=comunidades||3504
+Referrer: http://localhost:8080/comunidades/1.0/?ai=comunidades&tcm=previsualizacion&tm=1
+Host: 10.0.2.2
+==========
+[INFO][toba] Se detecto acceso desde el menu. Se limpia la memoria de la operacion
+[DEBUG][comunidades] INSTALACION "C:/ServidorWeb/comunidades/instalacion"
+[DEBUG][comunidades] Parametros instancia desarrollo: array (
+  'base' => 'toba_2_7',
+  'proyectos' => 'toba_editor, toba_referencia, toba_usuarios, comunidades',
+  'tipo' => 'normal',
+  'toba_editor' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_editor',
+    'url' => '/toba_editor/2.7',
+  ),
+  'toba_referencia' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_referencia',
+    'url' => '/toba_referencia/2.7',
+  ),
+  'toba_usuarios' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\vendor\\siu-toba\\framework/proyectos/toba_usuarios',
+    'url' => '/toba_usuarios/2.7',
+  ),
+  'comunidades' => 
+  array (
+    'path' => 'C:\\ServidorWeb\\comunidades\\src',
+    'url' => '/comunidades/1.0',
+  ),
+)
+[DEBUG][comunidades] INSTANCIA "desarrollo"
+[DEBUG][comunidades] Conectando a base 'toba_2_7'
+[DEBUG][comunidades] Parametros de conexion: array (
+  'motor' => 'postgres7',
+  'profile' => 'localhost',
+  'usuario' => 'postgres',
+  'clave' => 'pgsadmin',
+  'base' => 'toba_2_7',
+  'puerto' => '5432',
+  'encoding' => 'LATIN1',
+  'schema' => 'desarrollo',
+)
+[DEBUG][comunidades] PROYECTO "comunidades"
+[DEBUG][comunidades] PUNTO DE MONTAJE: se cargó exitosamente el autoload del punto de montaje proyecto
+[DEBUG][comunidades] PROYECTO "comunidades"
+[DEBUG][comunidades] (
+				SELECT 	amo.padre,
+							amo.carpeta,
+							amo.proyecto,
+							amo.item,
+							amo.descripcion as nombre,
+							ai.orden as 		orden,
+							ai.imagen,
+							ai.imagen_recurso_origen,
+							amo.padre = '1' as es_primer_nivel
+				   FROM 
+							apex_usuario_grupo_acc auga
+						JOIN apex_menu_operaciones amo ON (auga.menu_usuario = amo.menu_id AND auga.proyecto = amo.proyecto)
+						JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc AND augai.item = amo.item)
+						JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				  WHERE (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(amo.proyecto = 'comunidades')
+					AND auga.menu_usuario IS NOT NULL
+			UNION
+				SELECT 	ai.padre,
+						ai.carpeta,
+						ai.proyecto,
+						ai.item,
+						ai.nombre as nombre,
+						ai.orden as 		orden,
+						ai.imagen,
+						ai.imagen_recurso_origen,
+						ai.padre = '1' as es_primer_nivel
+				FROM 
+						apex_usuario_grupo_acc auga
+					JOIN apex_usuario_grupo_acc_item augai ON (auga.proyecto = augai.proyecto AND auga.usuario_grupo_acc = augai.usuario_grupo_acc)
+					JOIN apex_item ai ON (augai.item = ai.item AND augai.proyecto = ai.proyecto)	
+				WHERE auga.menu_usuario is null
+					AND (ai.menu = 1)
+					AND ai.item != ai.padre
+					AND	(auga.usuario_grupo_acc IN ('admin') OR ai.publico = 1)
+					AND	(ai.proyecto = 'comunidades')
+			) ORDER BY 1, 6
+[DEBUG][toba] [SECCION] Iniciando componentes...
+[INFO][comunidades] PUNTO MONTAJE: se cargó la clase personas/ci_personas.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\src/php
+[DEBUG][toba] componente(2503): [callback][ ini__operacion ]
+[DEBUG][toba] [SECCION] Procesando eventos...
+[INFO][toba] componente(2503): No hay señales de un servicio anterior, no se atrapan eventos
+[DEBUG][toba] [SECCION] Configurando dependencias para responder al servicio...
+[DEBUG][toba] componente(2503): Pantalla de servicio: 'pant_seleccion'
+[INFO][toba] componente(2503): [ callback ] 'conf__pant_seleccion' no fue atrapado
+[DEBUG][toba] componente(2503): [ callback ] 'conf__filtro'
+[DEBUG][toba] Se filtro el evento: cancelar
+[DEBUG][toba] componente(2503): [ callback ] 'conf__cuadro'
+[DEBUG][toba] [SECCION] Respondiendo al servicio__generar_html...
+[INFO][comunidades] PUNTO MONTAJE: se cargó la clase datos/dt_comunidades.php del punto de montaje proyecto. El path del mismo es C:\ServidorWeb\comunidades\src/php
+[DEBUG][comunidades] Inicializando perfil de datos para el proyecto comunidades
+[DEBUG][comunidades] SQL con perfil de datos: SELECT id_comunidad, comunidad FROM comunidades ORDER BY comunidad
+
