@@ -6,4 +6,12 @@ Pasos para desarrollo
 2. Ejecutar composer install
 3. Iniciar contenedor de postgreSQL
     docker compose up -d
-    
+
+Comandos utiles en desarrollo
+
+
+Listar migraciones:
+symfony console doctrine:migrations:list    
+
+Migrar:
+symfony console doctrine:migrations:migrate
