@@ -4,4 +4,6 @@ Pasos para desarrollo
 
 1. Clonar repo
 2. Ejecutar composer install
-3. 
+3. Iniciar contenedor de postgreSQL
+    docker compose up -d
+    
