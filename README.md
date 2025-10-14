@@ -16,8 +16,14 @@ symfony console doctrine:migrations:list
 Migrar:
 symfony console doctrine:migrations:migrate
 
+Cargar datos:
+symfony console doctrine:fixtures:load
+
 Consultar datos:
 symfony console doctrine:query:sql 'select * from nombre_tabla'
 
 Crear CRUD para entidades:
 symfony console make:admin:crud
+
+Limpiar cache:
+php bin/console cache:clear
