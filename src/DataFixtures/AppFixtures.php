@@ -5,6 +5,7 @@ namespace App\DataFixtures;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 use App\Entity\Comunidad;
+use App\Entity\Usuario;
 
 
 
@@ -52,6 +53,11 @@ class AppFixtures extends Fixture
         $comunidad1 = new Comunidad();
         $comunidad1->setComunidad('Comunidad 1');
         $manager->persist($comunidad1);
+
+        $usuario1 = new Usuario();
+        $usuario1->setEmail('superadmin@example.com');
+        $usuario1->setPassword('adminpass');
+        $manager->persist($usuario1);
 
         $manager->flush();
     }

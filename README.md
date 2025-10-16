@@ -1,37 +1,41 @@
-Sistema de Gestion de Comunidades
+## Sistema de Gestion de Comunidades
 
-Pasos para desarrollo
+### Pasos para desarrollo
 
 1. Clonar repo
-2. Ejecutar composer install
+2. Ejecutar ```composer install```
 3. Iniciar contenedor de postgreSQL
-    docker compose up -d
+   ```docker compose up -d```
 
-Comandos utiles en desarrollo
+## Comandos utiles en desarrollo
 
-Generar migraciones:
-symfony console make:migration
+### Crear entidad:
+```php bin/console make:entity```
 
-Listar migraciones:
-symfony console doctrine:migrations:list    
 
-Migrar:
-symfony console doctrine:migrations:migrate
+### Crear CRUD para entidades:
+```symfony console make:admin:crud```
 
-Marcar migraciones como no realizadas:
-symfony console doctrine:migrations:version --delete --all
+### Generar migraciones:
+```symfony console make:migration```
 
-Cargar datos:
-symfony console doctrine:fixtures:load
+### Listar migraciones:
+```symfony console doctrine:migrations:list```    
 
-Consultar datos:
-symfony console doctrine:query:sql 'select * from nombre_tabla'
+### Migrar:
+```symfony console doctrine:migrations:migrate```
 
-Crear CRUD para entidades:
-symfony console make:admin:crud
+### Marcar migraciones como no realizadas:
+```symfony console doctrine:migrations:version --delete --all```
 
-Limpiar cache:
-php bin/console cache:clear
+### Cargar datos:
+```symfony console doctrine:fixtures:load```
 
-Variables en tiempo de ejecucion
-symfony var:export --multiline
+### Consultar datos:
+```symfony console doctrine:query:sql 'select * from nombre_tabla'```
+
+### Limpiar cache:
+```php bin/console cache:clear```
+
+### Variables en tiempo de ejecucion
+```symfony var:export --multiline```

@@ -2,6 +2,9 @@
 
 namespace App\Controller\Admin;
 
+use App\Entity\Localidad;
+use App\Entity\Provincia;
+use App\Entity\Usuario;
 use EasyCorp\Bundle\EasyAdminBundle\Attribute\AdminDashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
@@ -51,6 +54,9 @@ class DashboardController extends AbstractDashboardController
     {
         yield MenuItem::linkToDashboard('Dashboard', 'fa fa-home');
         yield MenuItem::linkToCrud('Comunidades', 'fa fa-home', Comunidad::class);
+        yield MenuItem::linkToCrud('Usuarios', 'fa fa-user', Usuario::class);
+        yield MenuItem::linkToCrud('Provincias', 'fa fa-home', Provincia::class);
+        yield MenuItem::linkToCrud('Localidades', 'fa fa-home', Localidad::class);
         // yield MenuItem::linkToCrud('The Label', 'fas fa-list', EntityClass::class);
     }
 }
