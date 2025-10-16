@@ -9,12 +9,17 @@ Pasos para desarrollo
 
 Comandos utiles en desarrollo
 
+Generar migraciones:
+symfony console make:migration
 
 Listar migraciones:
 symfony console doctrine:migrations:list    
 
 Migrar:
 symfony console doctrine:migrations:migrate
+
+Marcar migraciones como no realizadas:
+symfony console doctrine:migrations:version --delete --all
 
 Cargar datos:
 symfony console doctrine:fixtures:load
@@ -27,3 +32,6 @@ symfony console make:admin:crud
 
 Limpiar cache:
 php bin/console cache:clear
+
+Variables en tiempo de ejecucion
+symfony var:export --multiline
