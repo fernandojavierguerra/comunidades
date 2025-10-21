@@ -2,8 +2,13 @@
 
 namespace App\Controller\Admin;
 
+use App\Entity\Barrio;
+use App\Entity\Grupo;
 use App\Entity\Localidad;
+use App\Entity\Persona;
 use App\Entity\Provincia;
+use App\Entity\Responsabilidad;
+use App\Entity\TipoDocumento;
 use App\Entity\Usuario;
 use EasyCorp\Bundle\EasyAdminBundle\Attribute\AdminDashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
@@ -53,10 +58,15 @@ class DashboardController extends AbstractDashboardController
     public function configureMenuItems(): iterable
     {
         yield MenuItem::linkToDashboard('Dashboard', 'fa fa-home');
-        yield MenuItem::linkToCrud('Comunidades', 'fa fa-home', Comunidad::class);
+        yield MenuItem::linkToCrud('Comunidades', 'fa fa-globe', Comunidad::class);
         yield MenuItem::linkToCrud('Usuarios', 'fa fa-user', Usuario::class);
-        yield MenuItem::linkToCrud('Provincias', 'fa fa-home', Provincia::class);
-        yield MenuItem::linkToCrud('Localidades', 'fa fa-home', Localidad::class);
+        yield MenuItem::linkToCrud('Provincias', 'fa fa-map-o', Provincia::class);
+        yield MenuItem::linkToCrud('Localidades', 'fa fa-map', Localidad::class);
+        yield MenuItem::linkToCrud('Barrios', 'fa fa-home', Barrio::class);
+        yield MenuItem::linkToCrud('Grupos', 'fa fa-users', Grupo::class);
+        yield MenuItem::linkToCrud('Personas', 'fa fa-person', Persona::class);
+        yield MenuItem::linkToCrud('Responsabilidades', 'fa fa-balance-scale', Responsabilidad::class);
+        yield MenuItem::linkToCrud('Tipos de Documento', 'fa fa-id-card', TipoDocumento::class);
         // yield MenuItem::linkToCrud('The Label', 'fas fa-list', EntityClass::class);
     }
 }
