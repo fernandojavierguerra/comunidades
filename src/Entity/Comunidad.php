@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\ComunidadRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: ComunidadRepository::class)]
@@ -18,6 +20,17 @@ class Comunidad
 
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $direccion = null;
+
+    /**
+     * @var Collection<int, Persona>
+     */
+    #[ORM\OneToMany(targetEntity: Persona::class, mappedBy: 'comunidad', orphanRemoval: true)]
+    private Collection $personas;
+
+    public function __construct()
+    {
+        $this->personas = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -44,6 +57,36 @@ class Comunidad
     public function setDireccion(?string $direccion): static
     {
         $this->direccion = $direccion;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Persona>
+     */
+    public function getPersonas(): Collection
+    {
+        return $this->personas;
+    }
+
+    public function addPersona(Persona $persona): static
+    {
+        if (!$this->personas->contains($persona)) {
+            $this->personas->add($persona);
+            $persona->setComunidad($this);
+        }
+
+        return $this;
+    }
+
+    public function removePersona(Persona $persona): static
+    {
+        if ($this->personas->removeElement($persona)) {
+            // set the owning side to null (unless already changed)
+            if ($persona->getComunidad() === $this) {
+                $persona->setComunidad(null);
+            }
+        }
 
         return $this;
     }
