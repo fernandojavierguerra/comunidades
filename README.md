@@ -10,7 +10,7 @@
 ## Comandos utiles en desarrollo
 
 ### Crear entidad:
-```php bin/console make:entity```
+```symfony console make:entity```
 
 
 ### Crear CRUD para entidades:
@@ -27,6 +27,9 @@
 
 ### Marcar migraciones como no realizadas:
 ```symfony console doctrine:migrations:version --delete --all```
+
+### Marcar migracion como realizada:
+```php bin/console doctrine:migrations:version YYYYMMDDHHMMSS --add```
 
 ### Cargar datos:
 ```symfony console doctrine:fixtures:load```
