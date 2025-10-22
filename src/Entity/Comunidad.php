@@ -32,6 +32,11 @@ class Comunidad
         $this->personas = new ArrayCollection();
     }
 
+    public function __toString(): string
+    {
+        return $this->getComunidad();
+    }
+
     public function getId(): ?int
     {
         return $this->id;
