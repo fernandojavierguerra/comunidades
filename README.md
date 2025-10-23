@@ -1,4 +1,4 @@
-## Sistema de Gestion de Comunidades
+# Sistema de Gestion de Comunidades
 
 ### Pasos para desarrollo
 
@@ -7,7 +7,8 @@
 3. Iniciar contenedor de postgreSQL
    ```docker compose up -d```
 
-## Comandos utiles en desarrollo
+# Comandos utiles en desarrollo
+
 
 ### Crear entidad:
 ```symfony console make:entity```
@@ -42,3 +43,9 @@
 
 ### Variables en tiempo de ejecucion
 ```symfony var:export --multiline```
+
+### Bcrypt ###
+Generar password y compr4bar
+Elegir Cost Factor 4
+
+```https://bcrypt-generator.com/```
