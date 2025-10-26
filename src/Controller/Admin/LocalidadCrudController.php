@@ -30,7 +30,7 @@ class LocalidadCrudController extends AbstractCrudController
         yield TextField::new('localidad');
         yield AssociationField::new('comunidad')
             ->hideOnIndex();
-        //yield AssociationField::new('provincia');
+        yield AssociationField::new('provincia');
 
     }
 

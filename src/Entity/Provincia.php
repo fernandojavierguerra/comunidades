@@ -33,6 +33,11 @@ class Provincia
         $this->localidads = new ArrayCollection();
     }
 
+    public function __toString(): string
+    {
+        return $this->provincia;
+    }
+
     public function getId(): ?int
     {
         return $this->id;

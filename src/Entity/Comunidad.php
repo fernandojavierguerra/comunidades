@@ -34,7 +34,7 @@ class Comunidad
 
     public function __toString(): string
     {
-        return $this->getComunidad();
+        return $this->comunidad;
     }
 
     public function getId(): ?int

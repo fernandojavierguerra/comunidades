@@ -23,6 +23,11 @@ class Grupo
     #[ORM\Column]
     private ?int $periodo = null;
 
+    public function __toString(): string
+    {
+        return $this->grupo;
+    }
+
     public function getId(): ?int
     {
         return $this->id;

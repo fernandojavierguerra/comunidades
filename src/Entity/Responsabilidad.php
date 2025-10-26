@@ -20,6 +20,11 @@ class Responsabilidad
     #[ORM\JoinColumn(nullable: false)]
     private ?Comunidad $comunidad = null;
 
+    public function __toString(): string
+    {
+        return $this->responsabilidad;
+    }
+
     public function getId(): ?int
     {
         return $this->id;

@@ -43,6 +43,11 @@ class Persona
     #[ORM\Column(type: Types::DATE_MUTABLE, nullable: true)]
     private ?\DateTime $fechaIngreso = null;
 
+    public function __toString(): string
+    {
+        return $this->apellido;
+    }
+
     public function getId(): ?int
     {
         return $this->id;

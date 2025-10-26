@@ -20,6 +20,11 @@ class Barrio
     #[ORM\JoinColumn(nullable: false)]
     private ?Comunidad $comunidad = null;
 
+    public function __toString(): string
+    {
+        return $this->barrio;
+    }
+
     public function getId(): ?int
     {
         return $this->id;

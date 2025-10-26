@@ -20,6 +20,11 @@ class TipoDocumento
     #[ORM\JoinColumn(nullable: false)]
     private ?Comunidad $comunidad = null;
 
+    public function __toString(): string
+    {
+        return $this->tipoDocumento;
+    }
+
     public function getId(): ?int
     {
         return $this->id;
