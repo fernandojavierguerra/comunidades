@@ -28,8 +28,12 @@ class ProvinciaCrudController extends AbstractCrudController
         yield IdField::new('id')
             ->hideOnForm();
         yield TextField::new('provincia');
+        yield AssociationField::new('localidades')
+            ->hideOnIndex();
         yield AssociationField::new('comunidad')
             ->hideOnIndex();
+
+
     }
 
 }

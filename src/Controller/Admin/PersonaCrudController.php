@@ -31,13 +31,13 @@ class PersonaCrudController extends AbstractCrudController
         yield TextField::new('nombres');
         yield TextField::new('apellido');
         yield TextField::new('nroDocumento');
-        //yield AssociationField::new('tipoDocumento')
-        //    ->hideOnIndex();
+        yield AssociationField::new('tipoDocumento')
+            ->hideOnIndex();
         yield DateField::new('fechaNacimiento');
         yield TextField::new('direccion');
         yield DateField::new('fechaIngreso');
-        //yield AssociationField::new('barrio')
-        //    ->hideOnIndex();
+        yield AssociationField::new('barrio')
+            ->hideOnIndex();
         yield AssociationField::new('comunidad')
             ->hideOnIndex();
     }

@@ -26,11 +26,11 @@ class Provincia
      * @var Collection<int, Localidad>
      */
     #[ORM\OneToMany(targetEntity: Localidad::class, mappedBy: 'provincia')]
-    private Collection $localidads;
+    private Collection $localidades;
 
     public function __construct()
     {
-        $this->localidads = new ArrayCollection();
+        $this->localidades = new ArrayCollection();
     }
 
     public function __toString(): string
@@ -70,15 +70,15 @@ class Provincia
     /**
      * @return Collection<int, Localidad>
      */
-    public function getLocalidads(): Collection
+    public function getLocalidades(): Collection
     {
-        return $this->localidads;
+        return $this->localidades;
     }
 
     public function addLocalidad(Localidad $localidad): static
     {
-        if (!$this->localidads->contains($localidad)) {
-            $this->localidads->add($localidad);
+        if (!$this->localidades->contains($localidad)) {
+            $this->localidades->add($localidad);
             $localidad->setProvincia($this);
         }
 
@@ -87,7 +87,7 @@ class Provincia
 
     public function removeLocalidad(Localidad $localidad): static
     {
-        if ($this->localidads->removeElement($localidad)) {
+        if ($this->localidades->removeElement($localidad)) {
             // set the owning side to null (unless already changed)
             if ($localidad->getProvincia() === $this) {
                 $localidad->setProvincia(null);
